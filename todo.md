@@ -23,3 +23,12 @@
 - [x] Adicionar UI de aprovação e devolução na fila; arquivamento disponível no contrato protegido
 - [x] Criar tabela e procedures de campanhas, além de procedures dedicados para CRM e relatórios
 - [x] Adicionar teste de isolamento por usuário e estados de carregamento/erro; estado vazio tratado com fallback orientativo
+
+## Redirecionamento de produto
+
+- [x] Remover calendário editorial da navegação, dashboard e textos da plataforma
+- [x] Reposicionar dashboard para criação de posts e identidade de marca
+- [x] Criar gerador de arquétipo com personalidade, valores, desejos, medos, voz e diretrizes de comunicação
+- [x] Criar formulário para briefing do arquétipo por segmento, público, diferencial e objetivo
+- [x] Adaptar sugestões de posts para gerar variações para Instagram, TikTok e Pinterest; integração contextual com arquétipo preparada
+- [x] Atualizar testes, validação visual e checkpoint da nova experiência
