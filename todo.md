@@ -32,3 +32,12 @@
 - [x] Criar formulário para briefing do arquétipo por segmento, público, diferencial e objetivo
 - [x] Adaptar sugestões de posts para gerar variações para Instagram, TikTok e Pinterest; integração contextual com arquétipo preparada
 - [x] Atualizar testes, validação visual e checkpoint da nova experiência
+
+## Adaptação para flux-marketing
+
+- [x] Documentar equivalência entre a base flux-marketing e o scaffold atual
+- [x] Criar estrutura backend/routers equivalente para FastAPI/integrações como camada organizacional
+- [x] Criar frontend/index.html de referência sem duplicar o app React principal
+- [x] Criar Procfile, railway.json e README de compatibilidade; variáveis documentadas sem editar arquivos de segredos
+- [x] Preservar o agente FLUX como conceito de orquestração para arquétipo, posts e revisão
+- [x] Validar que a adaptação não habilita publicação automática
