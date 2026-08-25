@@ -4,7 +4,7 @@ import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { protectedProcedure, publicProcedure, router } from "./_core/trpc";
 import { invokeLLM } from "./_core/llm";
-import { getDashboardData, getDb, businessProfiles, contentItems } from "./db";
+import { getDashboardData, getDb, businessProfiles, campaigns, contentItems, contacts, opportunities, reports } from "./db";
 import { eq, and } from "drizzle-orm";
 import { canTransitionContentStatus } from "./content-workflow";
 
@@ -19,6 +19,11 @@ export const appRouter = router({
   marketing: router({
     dashboard: protectedProcedure.query(({ ctx }) => getDashboardData(ctx.user.id)),
     profiles: protectedProcedure.query(async ({ ctx }) => { const db = await getDb(); return db ? db.select().from(businessProfiles).where(eq(businessProfiles.userId, ctx.user.id)) : []; }),
+    campaigns: protectedProcedure.query(async ({ ctx }) => { const db = await getDb(); return db ? db.select().from(campaigns).where(eq(campaigns.userId, ctx.user.id)) : []; }),
+    createCampaign: protectedProcedure.input(z.object({ profileId: z.number().int().positive(), name: z.string().min(2), objective: z.string().min(2), audience: z.string().min(2), channels: z.array(channelSchema).min(1), budget: z.number().nonnegative().default(0) })).mutation(async ({ ctx, input }) => { const db = await getDb(); if (!db) throw new Error("Database unavailable"); const result = await db.insert(campaigns).values({ ...input, userId: ctx.user.id, channels: input.channels.join(","), budget: String(input.budget) }); return { id: result[0].insertId }; }),
+    contacts: protectedProcedure.query(async ({ ctx }) => { const db = await getDb(); return db ? db.select().from(contacts).where(eq(contacts.userId, ctx.user.id)) : []; }),
+    opportunities: protectedProcedure.query(async ({ ctx }) => { const db = await getDb(); return db ? db.select().from(opportunities).where(eq(opportunities.userId, ctx.user.id)) : []; }),
+    reports: protectedProcedure.query(async ({ ctx }) => { const db = await getDb(); return db ? db.select().from(reports).where(eq(reports.userId, ctx.user.id)) : []; }),
     createProfile: protectedProcedure.input(z.object({ name: z.string().min(2), segment: z.string().min(2), audience: z.string().min(2), voice: z.string().min(2), objectives: z.string().min(2), activeChannels: z.array(channelSchema).min(1) })).mutation(async ({ ctx, input }) => { const db = await getDb(); if (!db) throw new Error("Database unavailable"); const result = await db.insert(businessProfiles).values({ ...input, userId: ctx.user.id, activeChannels: input.activeChannels.join(",") }); return { id: result[0].insertId }; }),
     generateContent: protectedProcedure.input(z.object({ profileId: z.number().int().positive(), objective: z.string().min(3), topic: z.string().min(3), channels: z.array(channelSchema).min(1), quantity: z.number().int().min(1).max(6).default(3) })).mutation(async ({ input }) => {
       const response = await invokeLLM({

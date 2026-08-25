@@ -40,6 +40,20 @@ export const contentItems = mysqlTable("content_items", {
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 });
 
+export const campaigns = mysqlTable("campaigns", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull(),
+  profileId: int("profileId").notNull(),
+  name: varchar("name", { length: 180 }).notNull(),
+  objective: varchar("objective", { length: 120 }).notNull(),
+  audience: text("audience").notNull(),
+  channels: text("channels").notNull(),
+  budget: decimal("budget", { precision: 12, scale: 2 }).default("0").notNull(),
+  status: mysqlEnum("status", ["planning", "active", "paused", "completed"]).default("planning").notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
 export const metrics = mysqlTable("metrics", {
   id: int("id").autoincrement().primaryKey(),
   userId: int("userId").notNull(),
@@ -92,6 +106,7 @@ export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 export type BusinessProfile = typeof businessProfiles.$inferSelect;
 export type ContentItem = typeof contentItems.$inferSelect;
+export type Campaign = typeof campaigns.$inferSelect;
 export type Metric = typeof metrics.$inferSelect;
 export type Contact = typeof contacts.$inferSelect;
 export type Opportunity = typeof opportunities.$inferSelect;

@@ -1,7 +1,7 @@
 import { and, desc, eq, sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
 import { ENV } from "./_core/env";
-import { InsertUser, users, businessProfiles, contentItems, metrics, contacts, opportunities, reports } from "../drizzle/schema";
+import { InsertUser, users, businessProfiles, campaigns, contentItems, metrics, contacts, opportunities, reports } from "../drizzle/schema";
 
 let _db: ReturnType<typeof drizzle> | null = null;
 export async function getDb() {
@@ -34,4 +34,4 @@ export async function getDashboardData(userId: number) {
   ]);
   return { profiles, pending, metrics: metricRows, contacts: contactRows, opportunities: opportunityRows, reports: reportRows };
 }
-export { businessProfiles, contentItems, metrics, contacts, opportunities, reports };
+export { businessProfiles, campaigns, contentItems, metrics, contacts, opportunities, reports };

@@ -15,6 +15,13 @@
       "when": 1787689411915,
       "tag": "0001_robust_lord_tyger",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1787689779115,
+      "tag": "0002_pale_marvel_zombies",
+      "breakpoints": true
     }
   ]
 }
