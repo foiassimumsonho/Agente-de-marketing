@@ -1,0 +1,180 @@
+[2026-08-25T20:08:00.987Z] Starting dev server with command: pnpm run dev
+[2026-08-25T20:08:02.278Z] > marketing-agent-dashboard@1.0.0 dev /home/ubuntu/marketing-agent-dashboard
+[2026-08-25T20:08:02.278Z] > NODE_ENV=development tsx watch server/_core/index.ts
+[2026-08-25T20:08:03.130Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:08:03.251Z] Server running on http://localhost:3000/
+[2026-08-25T20:23:22.840Z] 8:23:22 PM [tsx] change in ./drizzle/schema.ts Restarting...
+[2026-08-25T20:23:23.661Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:23:23.806Z] Server running on http://localhost:3000/
+[2026-08-25T20:23:55.667Z] 8:23:55 PM [tsx] change in ./server/db.ts Restarting...
+[2026-08-25T20:23:56.447Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:23:56.548Z] Server running on http://localhost:3000/
+[2026-08-25T20:24:10.445Z] 8:24:10 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T20:24:11.139Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:24:11.250Z] Server running on http://localhost:3000/
+[2026-08-25T20:25:48.966Z] 8:25:48 PM [vite] (client) page reload index.html
+[2026-08-25T20:26:13.528Z] 8:26:13 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T20:26:14.381Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:26:14.487Z] Server running on http://localhost:3000/
+[2026-08-25T20:26:34.529Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:26:37.510Z] 8:26:37 PM [vite] (client) ✨ new dependencies optimized: recharts, @radix-ui/react-tabs, @radix-ui/react-progress, @radix-ui/react-dialog, @radix-ui/react-label, @radix-ui/react-select, @radix-ui/react-avatar, @radix-ui/react-dropdown-menu, @radix-ui/react-separator
+[2026-08-25T20:26:37.510Z] 8:26:37 PM [vite] (client) ✨ optimized dependencies changed. reloading
+[2026-08-25T20:28:06.431Z] 8:28:06 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T20:28:07.236Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:28:07.351Z] Server running on http://localhost:3000/
+[2026-08-25T20:28:41.468Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:29:31.397Z] 8:29:31 PM [tsx] change in ./drizzle/schema.ts Restarting...
+[2026-08-25T20:29:32.111Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:29:32.217Z] Server running on http://localhost:3000/
+[2026-08-25T20:29:35.568Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:29:51.033Z] [Auth] Missing session cookie
+[2026-08-25T20:30:26.553Z] 8:30:26 PM [tsx] change in ./server/db.ts Restarting...
+[2026-08-25T20:30:27.337Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:30:27.444Z] Server running on http://localhost:3000/
+[2026-08-25T20:30:28.378Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:30:35.142Z] 8:30:35 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T20:30:35.963Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:30:36.069Z] Server running on http://localhost:3000/
+[2026-08-25T20:30:36.371Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:30:54.899Z] 8:30:54 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T20:31:13.632Z] 8:31:13 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T20:32:59.447Z] 8:32:59 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:05:34.641Z] [Auth] Missing session cookie
+[2026-08-25T22:05:37.201Z] [Auth] Missing session cookie
+[2026-08-25T22:06:35.895Z] 10:06:35 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T22:06:36.723Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T22:06:36.832Z] Server running on http://localhost:3000/
+[2026-08-25T22:06:37.729Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T22:06:55.224Z] 10:06:55 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:07:02.662Z] 10:07:02 PM [vite] (client) hmr update /src/index.css, /src/components/DashboardLayout.tsx
+[2026-08-25T22:07:11.822Z] 10:07:11 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:07:18.831Z] 10:07:18 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-08-25T22:07:25.271Z] 10:07:25 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:08:25.956Z] 10:08:25 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T22:08:26.696Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T22:08:26.802Z] Server running on http://localhost:3000/
+[2026-08-25T22:08:27.712Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T22:08:38.251Z] 10:08:38 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:20:22.645Z] 10:20:22 PM [vite] changed tsconfig file detected: /home/ubuntu/marketing-agent-dashboard/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload index.html
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload public/.gitkeep
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload public/__manus__/debug-collector.js
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload src/App.tsx
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload src/_core/hooks/useAuth.ts
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload src/components/AIChatBox.tsx
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload src/components/DashboardLayout.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/DashboardLayoutSkeleton.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/ErrorBoundary.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/ManusDialog.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/Map.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/ui/accordion.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/alert-dialog.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/alert.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/aspect-ratio.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/avatar.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/badge.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/breadcrumb.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/button-group.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/button.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/calendar.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/card.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/carousel.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/chart.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/checkbox.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/collapsible.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/command.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/context-menu.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/dialog.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/drawer.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/dropdown-menu.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/empty.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/field.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/form.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/hover-card.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/input-group.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/input-otp.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/input.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/item.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/kbd.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/label.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/menubar.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/navigation-menu.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/pagination.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/popover.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/progress.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/radio-group.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/resizable.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/scroll-area.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/select.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/separator.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/sheet.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/sidebar.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/skeleton.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/slider.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/sonner.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/spinner.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/switch.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/table.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/tabs.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/textarea.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/toggle-group.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/toggle.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/tooltip.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/const.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/contexts/ThemeContext.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/hooks/useComposition.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/hooks/useMobile.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/hooks/usePersistFn.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) hmr update /src/index.css
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/lib/trpc.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/lib/utils.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/main.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/pages/ComponentShowcase.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/pages/Home.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/pages/NotFound.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload /home/ubuntu/marketing-agent-dashboard/shared/const.ts
+[2026-08-25T22:20:22.746Z] 10:20:22 PM [tsx] unlink in ./vite.config.ts Restarting...
+[2026-08-25T22:20:22.777Z] cnode:internal/modules/cjs/loader:1247
+[2026-08-25T22:20:22.777Z] throw err;
+[2026-08-25T22:20:22.777Z] ^
+[2026-08-25T22:20:22.777Z] Error: Cannot find module '/home/ubuntu/marketing-agent-dashboard/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/preflight.cjs'
+[2026-08-25T22:20:22.777Z] Require stack:
+[2026-08-25T22:20:22.777Z] - internal/preload
+[2026-08-25T22:20:22.777Z] at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+[2026-08-25T22:20:22.777Z] at Function._load (node:internal/modules/cjs/loader:1070:27)
+[2026-08-25T22:20:22.777Z] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2026-08-25T22:20:22.777Z] at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+[2026-08-25T22:20:22.777Z] at Module.require (node:internal/modules/cjs/loader:1335:12)
+[2026-08-25T22:20:22.777Z] at node:internal/modules/cjs/loader:1834:12
+[2026-08-25T22:20:22.777Z] at loadPreloadModules (node:internal/process/pre_execution:726:5)
+[2026-08-25T22:20:22.777Z] at setupUserModules (node:internal/process/pre_execution:206:5)
+[2026-08-25T22:20:22.777Z] at prepareExecution (node:internal/process/pre_execution:159:5)
+[2026-08-25T22:20:22.777Z] at prepareMainThreadExecution (node:internal/process/pre_execution:54:10) {
+[2026-08-25T22:20:22.777Z] code: 'MODULE_NOT_FOUND',
+[2026-08-25T22:20:22.777Z] requireStack: [ 'internal/preload' ]
+[2026-08-25T22:20:22.777Z] }
+[2026-08-25T22:20:22.777Z] Node.js v22.13.0
+[2026-08-25T22:20:27.769Z] Dev server exited with code 0
+[2026-08-25T22:22:12.487Z] Starting dev server with command: pnpm run dev
+[2026-08-25T22:22:12.991Z] Already up to date
+[2026-08-25T22:22:13.000Z] Done in 254ms using pnpm v11.21.0
+[2026-08-25T22:22:13.008Z] $ python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}
+[2026-08-25T22:22:13.478Z] INFO:     Started server process [12841]
+[2026-08-25T22:22:13.478Z] INFO:     Waiting for application startup.
+[2026-08-25T22:22:13.478Z] INFO:     Application startup complete.
+[2026-08-25T22:22:13.478Z] INFO:     Uvicorn running on http://0.0.0.0:3000 (Press CTRL+C to quit)
+[2026-08-25T22:22:13.886Z] INFO:     10.76.96.1:37156 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:13.886Z] INFO:     10.76.96.1:37158 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:14.533Z] INFO:     127.0.0.1:33736 - "GET / HTTP/1.1" 200 OK
+[2026-08-25T22:22:14.913Z] INFO:     10.76.96.1:37170 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:15.133Z] INFO:     127.0.0.1:33736 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[2026-08-25T22:22:15.888Z] INFO:     10.76.96.1:37174 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:15.896Z] INFO:     10.76.96.1:37182 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:16.170Z] INFO:     10.76.96.1:37188 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:16.338Z] INFO:     10.76.96.1:37194 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:16.729Z] INFO:     10.76.96.1:37206 - "GET /?from_webdev=1 HTTP/1.1" 200 OK
+[2026-08-25T22:22:16.827Z] INFO:     10.76.96.1:37218 - "GET /?from_webdev=1 HTTP/1.1" 200 OK
+[2026-08-25T22:22:25.530Z] INFO:     127.0.0.1:45414 - "GET /health HTTP/1.1" 200 OK
+[2026-08-25T22:22:25.534Z] INFO:     127.0.0.1:45418 - "HEAD /docs HTTP/1.1" 200 OK
+[2026-08-25T22:22:58.567Z] INFO:     10.76.96.1:43092 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:23:01.698Z] INFO:     10.76.96.1:43102 - "HEAD / HTTP/1.1" 405 Method Not Allowed

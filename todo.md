@@ -41,3 +41,28 @@
 - [x] Criar Procfile, railway.json e README de compatibilidade; variáveis documentadas sem editar arquivos de segredos
 - [x] Preservar o agente FLUX como conceito de orquestração para arquétipo, posts e revisão
 - [x] Validar que a adaptação não habilita publicação automática
+
+## Substituição efetiva pela base enviada
+
+- [x] Tornar a base real do repositório FLUX a estrutura principal de execução do projeto
+- [x] Remover a dependência operacional do runtime React/Express como interface principal
+- [x] Promover os routers FastAPI reais do repositório para endpoints funcionais de integrações e agente FLUX
+- [x] Substituir `frontend/index.html` pela interface completa real do FLUX
+- [x] Ajustar Procfile e railway.json para execução FastAPI
+- [x] Validar a migração com smoke test FastAPI e manter publicação automática desabilitada
+
+## Importação do repositório GitHub
+
+- [x] Acessar `git@github.com:foiassimumsonho/Agente-de-marketing.git` via HTTPS após a autenticação SSH ser recusada
+- [x] Inspecionar branch `main`, pacote ZIP e estrutura do repositório recebido
+- [x] Substituir a camada `flux-marketing/` pelo conteúdo real extraído do repositório
+- [x] Validar backend Python por compilação e validar TypeScript, testes e regras de aprovação do painel
+- [x] Salvar checkpoint baseado no repositório importado
+
+## Confirmação da troca de runtime
+
+- [x] Substituir o processo Node/React pelo processo FastAPI confirmado pelo usuário
+- [x] Promover o `frontend/index.html` real do pacote para a entrada principal
+- [x] Ajustar caminhos de importação dos routers e arquivos estáticos
+- [x] Validar a inicialização FastAPI com porta de teste e servir a interface na raiz
+- [x] Documentar a troca do preview Node pelo runtime FastAPI e preparar checkpoint da substituição
