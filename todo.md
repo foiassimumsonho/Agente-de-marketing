@@ -106,3 +106,11 @@
 - [x] Corrigir o comando de start para que o container use o `dist/index.js` gerado pelo build
 - [x] Validar o build local compatível com o pipeline, o healthcheck e a resposta controlada das APIs
 - [x] Validar a referência em desktop e mobile e salvar novo checkpoint
+
+## Correção final de referência
+
+- [x] Remover laranja de logo, gradientes, ícones e estados ativos
+- [x] Aplicar paleta preta com roxo, azul e ciano conforme a foto
+- [x] Substituir módulos atuais pelo inventário exato da referência
+- [x] Ajustar títulos, badges, ícones e CTAs dos módulos conforme a foto
+- [x] Validar a versão publicada e salvar checkpoint
