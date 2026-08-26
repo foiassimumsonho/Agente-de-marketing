@@ -226,3 +226,16 @@
 [2026-08-26T01:07:01.501Z] INFO:     10.175.254.1:45458 - "HEAD / HTTP/1.1" 405 Method Not Allowed
 [2026-08-26T01:07:26.859Z] INFO:     10.175.254.1:36504 - "HEAD / HTTP/1.1" 405 Method Not Allowed
 [2026-08-26T01:07:28.766Z] INFO:     10.175.254.1:36514 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T14:53:31.963Z] [ELIFECYCLE] Command failed.
+[2026-08-26T14:53:31.973Z] INFO:     Shutting down
+[2026-08-26T14:53:32.074Z] INFO:     Waiting for application shutdown.
+[2026-08-26T14:53:32.074Z] INFO:     Application shutdown complete.
+[2026-08-26T14:53:32.074Z] INFO:     Finished server process [17617]
+[2026-08-26T14:53:32.077Z] Dev server exited with code -1
+[2026-08-26T14:53:33.154Z] Starting dev server with command: pnpm run dev
+[2026-08-26T14:53:33.409Z] $ node server/static-server.mjs
+[2026-08-26T14:54:15.496Z] [ELIFECYCLE] Command failed.
+[2026-08-26T14:54:15.502Z] Dev server exited with code -1
+[2026-08-26T14:54:16.588Z] Starting dev server with command: pnpm run dev
+[2026-08-26T14:54:16.839Z] $ node server/static-server.mjs
+[2026-08-26T14:54:16.891Z] FLUX server listening on port 3000

@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}",
-    "build": "rm -rf dist/public && mkdir -p dist/public && cp frontend/index.html dist/public/index.html",
-    "start": "python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}"
+    "dev": "node server/static-server.mjs",
+    "build": "rm -rf dist && mkdir -p dist/public && cp frontend/index.html dist/public/index.html && cp server/static-server.mjs dist/index.js",
+    "start": "node dist/index.js"
   }
 }

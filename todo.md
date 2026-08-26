@@ -98,3 +98,11 @@
 - [x] Ajustar `package.json` para build e start compatíveis com o FastAPI
 - [x] Validar o processo de build e os endpoints após a correção
 - [x] Salvar checkpoint corrigido antes de solicitar nova implantação
+
+## Correção de fidelidade e runtime
+
+- [x] Comparar a interface atual com a referência enviada e corrigir divergências de composição
+- [x] Ajustar exatamente paleta, bordas, tipografia, dimensões, espaçamentos e alinhamentos da referência
+- [x] Corrigir o comando de start para que o container use o `dist/index.js` gerado pelo build
+- [x] Validar o build local compatível com o pipeline, o healthcheck e a resposta controlada das APIs
+- [x] Validar a referência em desktop e mobile e salvar novo checkpoint
