@@ -114,3 +114,16 @@
 - [x] Substituir módulos atuais pelo inventário exato da referência
 - [x] Ajustar títulos, badges, ícones e CTAs dos módulos conforme a foto
 - [x] Validar a versão publicada e salvar checkpoint
+
+## Sugestão de Posts — briefing dedicado
+
+- [x] Criar tela dedicada para Sugestão de Posts
+- [x] Adicionar opções Feed, Stories, Reels e Carrossel
+- [x] Adicionar campo de público-alvo
+- [x] Adicionar campo de objetivo da postagem
+- [x] Adicionar campo de tema da postagem
+- [x] Adicionar campo livre para instruções e desejos do usuário
+- [x] Enviar todos os campos ao agente FLUX para gerar a sugestão
+- [x] Renderizar resultado com blocos verificáveis de direção, legenda, CTA, hashtags e roteiro, além do material completo
+- [x] Manter resultado como sugestão para revisão, sem publicação automática
+- [x] Validar estados desktop/mobile e salvar checkpoint após confirmação dos marcadores no preview
