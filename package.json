@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}",
-    "build": "echo 'FLUX FastAPI runtime does not require a Node build step'",
+    "build": "rm -rf dist/public && mkdir -p dist/public && cp frontend/index.html dist/public/index.html",
     "start": "python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}"
   }
 }

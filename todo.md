@@ -90,3 +90,11 @@
 - [x] Reproduzir dashboard lateral com métricas e estados de conexão
 - [x] Preservar os módulos do modelo e conectar as ações existentes
 - [x] Validar a reprodução em desktop e mobile e salvar checkpoint
+
+## Correção de implantação
+
+- [x] Corrigir a ausência de `dist/public` que fez o upload estático falhar
+- [x] Criar etapa de build que copie a interface FLUX para `dist/public/index.html`
+- [x] Ajustar `package.json` para build e start compatíveis com o FastAPI
+- [x] Validar o processo de build e os endpoints após a correção
+- [ ] Salvar checkpoint corrigido antes de solicitar nova implantação
