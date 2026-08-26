@@ -66,3 +66,16 @@
 - [x] Ajustar caminhos de importação dos routers e arquivos estáticos
 - [x] Validar a inicialização FastAPI com porta de teste e servir a interface na raiz
 - [x] Documentar a troca do preview Node pelo runtime FastAPI e preparar checkpoint da substituição
+
+## Redesign visual inspirado na referência
+
+- [x] Recriar o tema dark premium com roxo, ciano, rosa e gradientes sutis
+- [x] Criar sidebar com marca Marketing Agent e módulos navegáveis
+- [x] Criar hero de boas-vindas com proposta do produto e CTAs
+- [x] Criar indicadores de módulos, especialidades, templates e integrações
+- [x] Criar cards para Persona & Arquétipos, Copywriting, Briefing, Instagram Analytics, Sugestão de Posts, Google Ads, Meta Ads, Chat, Storytelling, Roteiros e Perfil Criativo
+- [x] Conectar os módulos à navegação e aos endpoints existentes quando aplicável
+- [x] Validar a nova interface em desktop e mobile; checkpoint pendente nesta rodada
+
+- [x] Conectar os módulos de Analytics, Instagram, Google Ads e Meta Ads aos endpoints FastAPI existentes ou exibir bloqueio explícito por credenciais ausentes
+- [x] Adicionar mensagens de bloqueio e erro por credencial nos módulos de integração
