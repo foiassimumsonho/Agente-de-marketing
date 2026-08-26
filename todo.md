@@ -97,4 +97,4 @@
 - [x] Criar etapa de build que copie a interface FLUX para `dist/public/index.html`
 - [x] Ajustar `package.json` para build e start compatíveis com o FastAPI
 - [x] Validar o processo de build e os endpoints após a correção
-- [ ] Salvar checkpoint corrigido antes de solicitar nova implantação
+- [x] Salvar checkpoint corrigido antes de solicitar nova implantação
