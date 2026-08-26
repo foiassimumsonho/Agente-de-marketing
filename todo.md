@@ -79,3 +79,14 @@
 
 - [x] Conectar os módulos de Analytics, Instagram, Google Ads e Meta Ads aos endpoints FastAPI existentes ou exibir bloqueio explícito por credenciais ausentes
 - [x] Adicionar mensagens de bloqueio e erro por credencial nos módulos de integração
+
+## Reprodução fiel do modelo visual
+
+- [x] Reproduzir a composição visual do modelo sem reinterpretar o layout
+- [x] Reproduzir cabeçalho com logo FLUX e botões Instagram, Google e Dashboard
+- [x] Reproduzir barra horizontal de atalhos rápidos
+- [x] Reproduzir área de mensagens com avatar, balões e resposta inicial do agente
+- [x] Reproduzir barra inferior com status das integrações e campo de mensagem
+- [x] Reproduzir dashboard lateral com métricas e estados de conexão
+- [x] Preservar os módulos do modelo e conectar as ações existentes
+- [x] Validar a reprodução em desktop e mobile e salvar checkpoint

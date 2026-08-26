@@ -202,3 +202,19 @@
 [2026-08-26T00:49:53.579Z] INFO:     10.175.254.1:49488 - "HEAD / HTTP/1.1" 405 Method Not Allowed
 [2026-08-26T00:50:31.566Z] INFO:     10.175.254.1:47312 - "HEAD / HTTP/1.1" 405 Method Not Allowed
 [2026-08-26T00:50:32.583Z] INFO:     10.175.254.1:60692 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:52:26.260Z] INFO:     10.175.254.1:48068 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:52:26.356Z] INFO:     10.175.254.1:48084 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:52:40.342Z] [ELIFECYCLE] Command failed.
+[2026-08-26T00:52:40.369Z] INFO:     Shutting down
+[2026-08-26T00:52:40.469Z] INFO:     Waiting for application shutdown.
+[2026-08-26T00:52:40.469Z] INFO:     Application shutdown complete.
+[2026-08-26T00:52:40.469Z] INFO:     Finished server process [17247]
+[2026-08-26T00:52:40.472Z] Dev server exited with code -1
+[2026-08-26T00:52:41.539Z] Starting dev server with command: pnpm run dev
+[2026-08-26T00:52:41.794Z] $ python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}
+[2026-08-26T00:52:42.265Z] INFO:     Started server process [17617]
+[2026-08-26T00:52:42.265Z] INFO:     Waiting for application startup.
+[2026-08-26T00:52:42.265Z] INFO:     Application startup complete.
+[2026-08-26T00:52:42.265Z] INFO:     Uvicorn running on http://0.0.0.0:3000 (Press CTRL+C to quit)
+[2026-08-26T00:53:19.936Z] INFO:     10.175.254.1:51736 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:53:22.304Z] INFO:     10.175.254.1:35254 - "HEAD / HTTP/1.1" 405 Method Not Allowed
