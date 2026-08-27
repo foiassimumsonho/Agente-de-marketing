@@ -164,3 +164,29 @@
 - [x] Gerar dicas práticas de engajamento
 - [x] Gerar conclusão estratégica e posicionamento esperado
 - [x] Renderizar todas as seções no estúdio com fallback por seção e manter como rascunho para aprovação
+
+## Publicação no GitHub
+
+- [x] Verificar autenticação e branch `main` do repositório remoto
+- [x] Comparar estado remoto com a versão atual do projeto
+- [x] Criar commit com as alterações do Agente de Marketing Digital
+- [x] Enviar o commit para `foiassimumsonho/Agente-de-marketing`
+- [x] Confirmar a referência do commit publicado: `e78d4f5`
+
+## Precificação assistida por fotos
+
+- [x] Criar módulo de precificação no Agente de Marketing Digital
+- [x] Permitir anexar fotos do produto para análise visual assistida
+- [x] Adicionar campos de horas de criação, valor da hora e custos de materiais
+- [x] Adicionar custos indiretos, embalagem, taxas e margem desejada
+- [x] Calcular custo de mão de obra, custo total, preço mínimo e preço sugerido
+- [x] Exibir memória de cálculo transparente e cenários de preço
+- [x] Registrar precificações no histórico com referência da foto, entradas e resultado
+- [x] Garantir que o preço seja uma estimativa revisável, não uma decisão automática
+- [x] Validar cálculos, upload, estados da interface e responsividade
+
+## Complements da precificação
+
+- [x] Implementar cenários separados de preço mínimo, recomendado e premium
+- [x] Salvar no histórico a referência real da foto analisada
+- [x] Validar no navegador upload, cálculo, análise visual, histórico e visual mobile
