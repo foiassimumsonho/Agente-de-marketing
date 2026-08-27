@@ -150,3 +150,17 @@
 - [x] Corrigir o fallback para usar o provedor integrado server-side e exibir erro específico
 - [x] Manter histórico das sugestões geradas com o briefing e o Perfil Criativo utilizado
 - [x] Validar geração, histórico, build e responsividade e salvar checkpoint
+
+## Padrão de conteúdo inspirado no exemplo anexado
+
+- [x] Gerar introdução estratégica conectando contexto, persona e dor
+- [x] Gerar título do post e objetivo detalhado
+- [x] Gerar melhor dia e horário com heurística por formato e objetivo, sempre como sugestão não garantida
+- [x] Gerar tipo de conteúdo e formato escolhido
+- [x] Gerar legenda completa em narrativa longa
+- [x] Gerar hashtags principais e lista ampliada de hashtags em blocos separados
+- [x] Gerar sugestão visual por etapas ou cenas
+- [x] Gerar sugestão de música quando aplicável ao formato
+- [x] Gerar dicas práticas de engajamento
+- [x] Gerar conclusão estratégica e posicionamento esperado
+- [x] Renderizar todas as seções no estúdio com fallback por seção e manter como rascunho para aprovação
