@@ -139,3 +139,14 @@
 - [x] Criar módulo visual para consultar tudo que foi gerado e limpar histórico
 - [x] Garantir persistência isolada no navegador e preservar a regra de não publicação automática
 - [x] Validar persistência e renderização do histórico no navegador, build, sintaxe e endpoints; checkpoint pendente nesta rodada
+
+## Correção do fluxo de Perfil Criativo e geração
+
+- [x] Remover o campo manual de contexto do arquétipo da tela de Sugestão de Posts
+- [x] Criar e persistir os campos do Perfil Criativo: personalidade, tom de voz, estilo visual e diretrizes
+- [x] Usar automaticamente o Perfil Criativo como contexto na geração de posts
+- [x] Exibir no estúdio que o Perfil Criativo salvo é usado automaticamente
+- [x] Diagnosticar o erro de integração do provedor de IA: `/api/chat/` estava fixo em 503
+- [x] Corrigir o fallback para usar o provedor integrado server-side e exibir erro específico
+- [x] Manter histórico das sugestões geradas com o briefing e o Perfil Criativo utilizado
+- [x] Validar geração, histórico, build e responsividade e salvar checkpoint
