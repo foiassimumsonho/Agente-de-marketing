@@ -127,3 +127,15 @@
 - [x] Renderizar resultado com blocos verificáveis de direção, legenda, CTA, hashtags e roteiro, além do material completo
 - [x] Manter resultado como sugestão para revisão, sem publicação automática
 - [x] Validar estados desktop/mobile e salvar checkpoint após confirmação dos marcadores no preview
+
+## Nome e histórico de gerações
+
+- [x] Renomear FLUX para Agente de Marketing Digital no título, marca, textos e respostas
+- [x] Atualizar o nome em `flux-marketing/frontend/index.html` e criar README atualizado da base importada
+- [x] Criar histórico persistente local com tipo, formato, briefing, resultado e data
+- [x] Registrar gerações de posts no histórico
+- [x] Registrar gerações de arquétipos no histórico
+- [x] Registrar conversas e respostas do agente no histórico
+- [x] Criar módulo visual para consultar tudo que foi gerado e limpar histórico
+- [x] Garantir persistência isolada no navegador e preservar a regra de não publicação automática
+- [x] Validar persistência e renderização do histórico no navegador, build, sintaxe e endpoints; checkpoint pendente nesta rodada
