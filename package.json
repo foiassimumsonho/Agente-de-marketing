@@ -6,6 +6,10 @@
   "scripts": {
     "dev": "node server/static-server.mjs",
     "build": "rm -rf dist && mkdir -p dist/public && cp frontend/index.html dist/public/index.html && cp server/static-server.mjs dist/index.js",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.11"
   }
 }

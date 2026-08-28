@@ -190,3 +190,10 @@
 - [x] Implementar cenários separados de preço mínimo, recomendado e premium
 - [x] Salvar no histórico a referência real da foto analisada
 - [x] Validar no navegador upload, cálculo, análise visual, histórico e visual mobile
+
+## Exportação de orçamento da precificação
+
+- [x] Adicionar exportação do resultado da precificação em PDF via impressão/salvamento
+- [x] Adicionar exportação do orçamento em imagem PNG
+- [x] Criar layout de orçamento com entradas, cenários, análise visual e aviso de estimativa
+- [ ] Validar exportações, responsividade e ausência de publicação automática
