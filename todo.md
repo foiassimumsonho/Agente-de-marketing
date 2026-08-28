@@ -197,3 +197,4 @@
 - [x] Adicionar exportação do orçamento em imagem PNG
 - [x] Criar layout de orçamento com entradas, cenários, análise visual e aviso de estimativa
 - [ ] Validar exportações, responsividade e ausência de publicação automática
+- [x] Liberar a exportação com fallback de tempo limite quando a análise visual da IA não responder

@@ -20,6 +20,7 @@ describe('exportação do orçamento de precificação', () => {
   });
 
   it('usa impressão para PDF e canvas para PNG, sem publicar automaticamente', () => {
+    expect(html).toContain('function withTimeout(');
     expect(html).toContain('function exportPricingPdf()');
     expect(html).toContain('window.print()');
     expect(html).toContain('function exportPricingImage()');
