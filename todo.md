@@ -196,6 +196,24 @@
 - [x] Adicionar exportação do resultado da precificação em PDF via impressão/salvamento
 - [x] Adicionar exportação do orçamento em imagem PNG
 - [x] Criar layout de orçamento com entradas, cenários, análise visual e aviso de estimativa
-- [ ] Validar exportações, responsividade e ausência de publicação automática
+- [x] Validar exportações, responsividade e ausência de publicação automática
 - [x] Liberar a exportação com fallback de tempo limite quando a análise visual da IA não responder
-- [ ] Abrir automaticamente a tela correspondente ao hash da URL em links diretos
+- [x] Abrir automaticamente a tela correspondente ao hash da URL em links diretos
+
+## Validação ponta a ponta das exportações
+
+- [x] Confirmar abertura do layout imprimível na exportação PDF
+- [x] Confirmar geração e download real do arquivo PNG
+- [x] Ajustar PDF/PNG se necessário para compatibilidade do navegador do preview
+
+## Confirmação observável dos arquivos exportados
+
+- [x] Exibir uma prévia observável do PNG gerado após o download
+- [x] Revalidar PDF/PNG no preview com a confirmação visual do artefato
+- [x] Exibir uma prévia imprimível observável do orçamento PDF no próprio painel
+- [x] Revalidar o fluxo completo PDF e PNG após a prévia observável
+- [x] Repetir no navegador o botão Baixar imagem após a adição da prévia PDF
+- [x] Validar PDF e PNG juntos na mesma versão final servida
+- [x] Capturar evidência observável do status e da prévia PNG após a prévia PDF no mesmo navegador
+- [x] Revalidar novamente PDF + PNG juntos com evidência no DOM final
+- [x] Validar novamente o PNG depois que a prévia PDF estiver visível, com status PNG e ambas as prévias no DOM final

@@ -25,6 +25,9 @@ describe('exportação do orçamento de precificação', () => {
     expect(html).toContain('window.print()');
     expect(html).toContain('function exportPricingImage()');
     expect(html).toContain('canvas.toDataURL(\'image/png\')');
+    expect(html).toContain('Imagem PNG gerada, pré-visualizada e enviada para download');
+    expect(html).toContain('Layout PDF aberto em nova aba');
+    expect(html).toContain('id="price-export-status"');
     expect(html).toContain('decisão humana');
     expect(html).toContain('nunca deve ser publicado automaticamente');
   });
