@@ -217,3 +217,11 @@
 - [x] Capturar evidência observável do status e da prévia PNG após a prévia PDF no mesmo navegador
 - [x] Revalidar novamente PDF + PNG juntos com evidência no DOM final
 - [x] Validar novamente o PNG depois que a prévia PDF estiver visível, com status PNG e ambas as prévias no DOM final
+
+## Histórico automático de orçamentos
+
+- [x] Salvar automaticamente cada orçamento calculado no histórico do usuário
+- [x] Exibir orçamentos salvos com data, produto, foto, custos e cenários
+- [x] Permitir reabrir um orçamento salvo para consulta e exportação
+- [x] Permitir excluir um orçamento individual sem apagar os demais
+- [x] Validar persistência, reabertura, exclusão, responsividade e aprovação humana

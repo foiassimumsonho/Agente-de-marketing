@@ -1,0 +1,23 @@
+from pathlib import Path
+
+path = Path('/home/ubuntu/marketing-agent-dashboard/frontend/index.html')
+html = path.read_text()
+
+old_extra = "null,{photoReference:pricePhotoData?{name:pricePhotoName,dataUrl:pricePhotoData}:null,scenarios:{minimum,suggested,premium}})"
+new_extra = "null,{photoReference:pricePhotoData?{name:pricePhotoName,dataUrl:pricePhotoData}:null,scenarios:{minimum,suggested,premium},pricing:latestPricing})"
+if old_extra not in html:
+    raise SystemExit('pricing save payload anchor not found')
+html = html.replace(old_extra, new_extra, 1)
+
+start = html.find('function renderHistory()')
+end = html.find('function clearHistory()', start)
+if start < 0 or end < 0:
+    raise SystemExit('history function anchors not found')
+
+new_history = r'''function renderPricingHistory(item){const p=item.pricing||{};const photo=item.photoReference?.dataUrl?`<img class="history-price-photo" src="${item.photoReference.dataUrl}" alt="Referência visual do orçamento"/>`:'';return `<article class="history-item history-pricing"><span class="history-type">Precificação · ${escapePostHtml(item.format||'Foto + cálculo')}</span><div class="history-item-head"><strong>${escapePostHtml(item.title)}</strong><time>${new Date(item.createdAt).toLocaleString('pt-BR')}</time></div><div class="history-pricing-main">${photo}<div><p><b>Entradas:</b> ${escapePostHtml(item.briefing)}</p><div class="history-price-grid"><span><small>Mínimo</small><b>${money(p.minimum)}</b></span><span><small>Recomendado</small><b>${money(p.suggested)}</b></span><span><small>Premium</small><b>${money(p.premium)}</b></span></div></div></div><p class="history-price-note">O orçamento foi salvo automaticamente e permanece como estimativa revisável. Nenhuma publicação ou ação externa foi executada.</p><div class="history-actions"><button class="secondary" onclick="restorePricingHistory(${Number(item.id)})">Reabrir orçamento</button><button class="ghost-button" onclick="deleteHistoryItem(${Number(item.id)})">Excluir</button></div></article>`}
+function restorePricingHistory(id){const item=readHistory().find(entry=>Number(entry.id)===Number(id));if(!item||!item.pricing){alert('Este registro não contém os dados completos do orçamento.');return}const p=item.pricing;latestPricing=p;const fields={name:p.name,hours:p.hours,rate:p.rate,materials:p.materials,packaging:p.packaging,overhead:p.overhead,fees:p.feesPct,margin:p.marginPct};Object.entries(fields).forEach(([key,value])=>{const el=document.getElementById('price-'+(key==='rate'?'hour-rate':key));if(el)el.value=value??''});pricePhotoData=p.photoData||item.photoReference?.dataUrl||'';pricePhotoName=item.photoReference?.name||'';const photoBox=document.getElementById('price-photo-preview');if(photoBox){photoBox.innerHTML=pricePhotoData?`<img src="${pricePhotoData}" alt="Prévia do produto"/><span>${escapePostHtml(pricePhotoName||'Foto recuperada do histórico')} — imagem pronta para análise assistida.</span>`:'A foto original não foi armazenada neste registro.'}const result=document.getElementById('price-result');if(result)result.textContent=item.result||'Orçamento recuperado do histórico.';const actions=document.getElementById('price-export-actions');if(actions)actions.hidden=false;openView('pricing');showExportStatus('Orçamento recuperado do histórico. Você pode revisar os dados e exportar novamente.');window.scrollTo({top:0,behavior:'smooth'})}
+function deleteHistoryItem(id){const items=readHistory();const item=items.find(entry=>Number(entry.id)===Number(id));if(!item)return;if(confirm(`Excluir o orçamento "${item.title}" do histórico?`)){localStorage.setItem(HISTORY_KEY,JSON.stringify(items.filter(entry=>Number(entry.id)!==Number(id))));renderHistory()}}
+function renderHistory(){const box=document.getElementById('history-list');if(!box)return;const items=readHistory();box.innerHTML=items.length?items.map(item=>item.type==='Precificação'&&item.pricing?renderPricingHistory(item):`<article class="history-item"><span class="history-type">${escapePostHtml(item.type)}${item.format?` · ${escapePostHtml(item.format)}`:''}</span><div class="history-item-head"><strong>${escapePostHtml(item.title)}</strong><time>${new Date(item.createdAt).toLocaleString('pt-BR')}</time></div><p><b>Briefing:</b> ${escapePostHtml(item.briefing)}${item.creativeProfile?`\n\n<b>Perfil Criativo usado:</b> ${escapePostHtml(item.creativeProfile.personality||'não definido')} · ${escapePostHtml(item.creativeProfile.tone||'tom não definido')}`:''}\n\n${escapePostHtml(item.result)}</p></article>`).join(''):'<div class="result">Ainda não há gerações salvas. Crie um arquétipo, um post, um orçamento ou converse com o agente para começar.</div>'}
+'''
+html = html[:start] + new_history + html[end:]
+path.write_text(html)

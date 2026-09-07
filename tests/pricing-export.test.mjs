@@ -32,3 +32,21 @@ describe('exportação do orçamento de precificação', () => {
     expect(html).toContain('nunca deve ser publicado automaticamente');
   });
 });
+
+describe('histórico automático de orçamentos', () => {
+  it('salva o payload completo do orçamento após o cálculo', () => {
+    expect(html).toContain("saveHistory('Precificação'");
+    expect(html).toContain('pricing:latestPricing');
+    expect(html).toContain('photoReference');
+    expect(html).toContain('scenarios:{minimum,suggested,premium}');
+  });
+
+  it('renderiza, reabre e exclui orçamentos individualmente', () => {
+    expect(html).toContain('function renderPricingHistory(');
+    expect(html).toContain('function restorePricingHistory(');
+    expect(html).toContain('function deleteHistoryItem(');
+    expect(html).toContain('Reabrir orçamento');
+    expect(html).toContain('Excluir');
+    expect(html).toContain('localStorage.setItem(HISTORY_KEY');
+  });
+});
