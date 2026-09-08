@@ -50,3 +50,23 @@ describe('histórico automático de orçamentos', () => {
     expect(html).toContain('localStorage.setItem(HISTORY_KEY');
   });
 });
+
+
+describe('Sugestão de Posts: legibilidade e profundidade editorial', () => {
+  it('usa tipografia e espaçamento ampliados nos campos e resultados', () => {
+    expect(html).toContain('font-size:13px;font-weight:600');
+    expect(html).toContain('font-size:14px;line-height:1.72');
+    expect(html).toContain('post-result-intro');
+    expect(html).toContain('post-briefing-card');
+  });
+
+  it('orienta reflexão concreta, concisão e adaptação por formato', () => {
+    expect(html).toContain('profundidade editorial real');
+    expect(html).toContain('Evite frases genéricas');
+    expect(html).toContain('para Stories, use sequência de telas');
+    expect(html).toContain('para Reels, cenas e falas');
+    expect(html).toContain('para Carrossel, texto por slide');
+    expect(html).toContain('A reflexão central é esta');
+    expect(html).toContain('Nada é publicado automaticamente');
+  });
+});

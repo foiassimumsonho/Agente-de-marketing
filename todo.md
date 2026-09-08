@@ -225,3 +225,22 @@
 - [x] Permitir reabrir um orçamento salvo para consulta e exportação
 - [x] Permitir excluir um orçamento individual sem apagar os demais
 - [x] Validar persistência, reabertura, exclusão, responsividade e aprovação humana
+
+## Melhoria de Sugestão de Posts
+
+- [x] Aumentar tamanho, contraste, espaçamento e hierarquia tipográfica do módulo de Sugestão de Posts
+- [x] Reorganizar os resultados em blocos de leitura mais claros e confortáveis
+- [x] Aprofundar prompt e fallback para textos reflexivos, estratégicos e concisos
+- [x] Preservar adaptação por Feed, Stories, Reels e Carrossel
+- [x] Validar qualidade editorial, legibilidade mobile/desktop e aprovação humana
+- [x] Validar no navegador a renderização final da Sugestão de Posts com conteúdo exibido em blocos após geração real ou fallback acionado pela interface
+- [x] Registrar evidência observável do resultado final do módulo de posts em desktop e mobile, incluindo legibilidade dos cards e aviso de revisão humana
+- [x] Corrigir o parser de seções para que cada card receba somente o conteúdo do próprio bloco
+
+## Fallback automático e validação final de Sugestão de Posts
+
+- [x] Fazer a interface renderizar fallback em cards automaticamente quando a IA falhar
+- [x] Validar no navegador o fallback disparado pela própria interface, sem injeção manual
+- [x] Registrar evidência mobile do resultado final renderizado em cards com aviso de revisão humana
+- [x] Restaurar automaticamente a última sugestão de post salva ao abrir o módulo
+- [x] Revalidar o resultado com cards preenchidos em viewport mobile
