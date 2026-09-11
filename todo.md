@@ -253,3 +253,9 @@
 - [x] Validar visualmente o novo resultado em desktop/mobile e atualizar testes
 - [x] Adicionar timeout ao pedido de IA do gerador de posts para acionar o fallback editorial sem deixar a interface travada
 - [x] Validar em viewport mobile o novo formato editorial de referência após as correções finais do parser/timeout e registrar evidência observável no preview
+
+## Variações multiformato e cópia dos cards
+
+- [x] Criar opção para gerar variações da mesma ideia para Stories, Reels e Carrossel
+- [x] Adicionar botão em cada card para copiar o conteúdo completo para a área de transferência
+- [x] Validar feedback de cópia, responsividade, histórico e fluxo de revisão humana

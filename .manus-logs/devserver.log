@@ -372,3 +372,8 @@
 [2026-09-11T03:07:24.029Z] Starting dev server with command: pnpm run dev
 [2026-09-11T03:07:24.708Z] $ node server/static-server.mjs
 [2026-09-11T03:07:24.823Z] FLUX server listening on port 3000
+[2026-09-11T03:13:29.001Z] [ELIFECYCLE] Command failed.
+[2026-09-11T03:13:29.013Z] Dev server exited with code -1
+[2026-09-11T03:13:30.071Z] Starting dev server with command: pnpm run dev
+[2026-09-11T03:13:30.750Z] $ node server/static-server.mjs
+[2026-09-11T03:13:30.901Z] FLUX server listening on port 3000

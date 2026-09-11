@@ -98,3 +98,21 @@ describe('Sugestão de Posts: formato editorial de referência', () => {
     expect(html).toContain('rascunho para revisão humana');
   });
 });
+
+
+describe('Variações multiformato e cópia dos cards', () => {
+  it('oferece variações para Stories, Reels e Carrossel usando a mesma ideia', () => {
+    expect(html).toContain('generatePostVariations()');
+    expect(html).toContain("const formats=['Stories','Reels','Carrossel']");
+    expect(html).toContain('Variações da mesma ideia');
+    expect(html).toContain("saveHistory('Post','Variações multiformato'");
+  });
+
+  it('adiciona cópia individual aos cards e ao material completo', () => {
+    expect(html).toContain('function copyCardContent(');
+    expect(html).toContain('navigator.clipboard?.writeText');
+    expect(html).toContain('⧉ Copiar card');
+    expect(html).toContain('⧉ Copiar material completo');
+    expect(html).toContain('✓ Copiado');
+  });
+});
