@@ -15,3 +15,7 @@ A última sugestão agora é recuperada automaticamente ao abrir `#posts` a part
 ## Captura mobile observável
 
 A rota temporária de validação abriu `#posts` em viewport de 390 × 844 e exibiu o briefing seguido de cards preenchidos no resultado, incluindo a leitura editorial, contexto, post, objetivo, horário, formato, legenda, hashtags, direção visual, música, engajamento, conclusão, roteiro e material completo. O cabeçalho mostrou `RASCUNHO PARA REVISÃO`; após a captura, a rota temporária foi removida e não faz parte do produto entregue.
+
+## Formato editorial de referência — validação final mobile
+
+A viewport mobile de 390 × 844 foi capturada após as correções finais do prompt, timeout e parser. A página inteira exibiu o briefing responsivo e a sequência completa de cards do resultado, incluindo abertura estratégica, Post, objetivo, horário, tipo de conteúdo, legenda, hashtags, direção visual, música, engajamento, conclusão e roteiro. O resultado permaneceu identificado como rascunho para revisão humana, sem publicação automática.

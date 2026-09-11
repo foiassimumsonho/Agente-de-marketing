@@ -244,3 +244,12 @@
 - [x] Registrar evidência mobile do resultado final renderizado em cards com aviso de revisão humana
 - [x] Restaurar automaticamente a última sugestão de post salva ao abrir o módulo
 - [x] Revalidar o resultado com cards preenchidos em viewport mobile
+
+## Adequação ao formato editorial de referência
+
+- [x] Reestruturar o resultado de Sugestão de Posts no formato narrativo do exemplo fornecido
+- [x] Aprofundar prompt e fallback com abertura contextual, título do post, objetivo, horário, legenda longa, hashtags numeradas, visual por etapas, música e dicas de engajamento
+- [x] Preservar parser em cards, histórico e aprovação humana sem publicação automática
+- [x] Validar visualmente o novo resultado em desktop/mobile e atualizar testes
+- [x] Adicionar timeout ao pedido de IA do gerador de posts para acionar o fallback editorial sem deixar a interface travada
+- [x] Validar em viewport mobile o novo formato editorial de referência após as correções finais do parser/timeout e registrar evidência observável no preview

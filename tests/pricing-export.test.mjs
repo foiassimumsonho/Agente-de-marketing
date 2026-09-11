@@ -70,3 +70,31 @@ describe('Sugestão de Posts: legibilidade e profundidade editorial', () => {
     expect(html).toContain('Nada é publicado automaticamente');
   });
 });
+
+
+describe('Sugestão de Posts: formato editorial de referência', () => {
+  it('instrui a resposta a seguir a estrutura narrativa do exemplo', () => {
+    expect(html).toContain('### Post 1 — [título]');
+    expect(html).toContain('*🎯 Objetivo:*');
+    expect(html).toContain('*📅 Melhor dia/horário para postar:*');
+    expect(html).toContain('*#️⃣ Hashtags sugeridas (30 hashtags):*');
+    expect(html).toContain('*🖼️ Sugestão visual:*');
+    expect(html).toContain('*💡 Dica de engajamento:*');
+  });
+
+  it('mantém fallback rico, hashtags numeradas e direção visual por etapas', () => {
+    expect(html).toContain('function buildPostFallback(');
+    expect(html).toContain('Início (0–5s)');
+    expect(html).toContain('Meio (5–15s)');
+    expect(html).toContain('Virada (15–25s)');
+    expect(html).toContain('30 hashtags');
+    expect(html).toContain('Responda aos comentários com atenção');
+  });
+
+  it('aceita títulos Markdown e marcadores com emoji no parser', () => {
+    expect(html).toContain('const cleanHeading=line=>');
+    expect(html).toContain('const matchLabel=line=>');
+    expect(html).toContain('Material completo para revisão');
+    expect(html).toContain('rascunho para revisão humana');
+  });
+});
