@@ -259,3 +259,19 @@
 - [x] Criar opção para gerar variações da mesma ideia para Stories, Reels e Carrossel
 - [x] Adicionar botão em cada card para copiar o conteúdo completo para a área de transferência
 - [x] Validar feedback de cópia, responsividade, histórico e fluxo de revisão humana
+
+## Perfil Criativo artístico expandido
+
+- [x] Reestruturar o Perfil Criativo nas seções Estilo de Arte, Trajetória, Processo Criativo, Ideias de Negócio e Público-Alvo
+- [x] Persistir todos os campos artísticos e exibir um resumo ativo do perfil
+- [x] Usar o perfil artístico expandido nas sugestões de posts, variações e histórico
+- [x] Validar formulário mobile/desktop, testes, build e fluxo de revisão humana
+
+## Construtores e profundidade da geração
+
+- [x] Substituir módulos conversacionais prioritários por fluxos de construção orientados por formulário
+- [x] Adicionar nicho e quantidade de posts ao briefing de Sugestão de Posts
+- [x] Gerar a quantidade solicitada de posts com identificação, diversidade e estrutura completa
+- [x] Reforçar o prompt para usar cada detalhe do briefing e evitar texto genérico, ambíguo ou curto
+- [x] Melhorar o fallback para manter profundidade e especificidade quando a IA estiver indisponível
+- [x] Validar módulos, posts, histórico, responsividade, testes e build

@@ -116,3 +116,32 @@ describe('Variações multiformato e cópia dos cards', () => {
     expect(html).toContain('✓ Copiado');
   });
 });
+
+
+describe('Construtores e briefing aprofundado', () => {
+  it('transforma módulos genéricos em construtores por formulário', () => {
+    expect(html).toContain('id="generic-context"');
+    expect(html).toContain('id="generic-audience"');
+    expect(html).toContain('id="generic-details"');
+    expect(html).toContain('function generateGenericBuild(');
+    expect(html).toContain('Não transforme a resposta em conversa');
+  });
+
+  it('inclui nicho, quantidade e instruções de profundidade no gerador de posts', () => {
+    expect(html).toContain('id="post-niche"');
+    expect(html).toContain('id="post-quantity"');
+    expect(html).toContain('function postBriefing()');
+    expect(html).toContain('legenda deve ter entre 500 e 800 palavras');
+    expect(html).toContain('BRIEFING OBRIGATÓRIO');
+  });
+
+  it('mantém o Perfil Criativo como construção artística estruturada', () => {
+    expect(html).toContain('id="creative-art-style"');
+    expect(html).toContain('id="creative-formation"');
+    expect(html).toContain('id="creative-process"');
+    expect(html).toContain('id="creative-business-ideas"');
+    expect(html).toContain('id="creative-audience"');
+    expect(html).toContain('function saveCreativeProfile()');
+    expect(html).toContain('Perfil Criativo artístico ativo');
+  });
+});
