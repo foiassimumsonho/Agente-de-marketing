@@ -145,3 +145,17 @@ describe('Construtores e briefing aprofundado', () => {
     expect(html).toContain('Perfil Criativo artístico ativo');
   });
 });
+
+
+describe('Integração de IA no preview', () => {
+  it('permite respostas lentas do provedor sem abortar após 12 segundos', () => {
+    expect(html).toContain('setTimeout(()=>controller.abort(),45000)');
+    expect(html).not.toContain('controller.abort(),12000');
+  });
+
+  it('diferencia timeout de IA de erro de credencial ausente', () => {
+    expect(html).toContain('O provedor de IA retornou um erro.');
+    expect(html).toContain('A integração de IA não respondeu em até 45 segundos');
+    expect(html).not.toContain('Configure ANTHROPIC_API_KEY');
+  });
+});
