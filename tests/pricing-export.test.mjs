@@ -176,3 +176,25 @@ describe('Qualidade e validação editorial dos posts', () => {
     expect(html).toContain('0–5s — Gancho');
   });
 });
+
+
+describe('Planejamento de Divulgação', () => {
+  it('expõe um construtor dedicado com os tópicos estratégicos essenciais', () => {
+    expect(html).toContain('id="view-planning"');
+    expect(html).toContain('data-view="planning"');
+    expect(html).toContain('id="plan-brand"');
+    expect(html).toContain('id="plan-audience"');
+    expect(html).toContain('id="plan-identity"');
+    expect(html).toContain('id="plan-editorial"');
+    expect(html).toContain('id="plan-kpis"');
+  });
+
+  it('gera plano com calendário, canais, KPIs e revisão humana', () => {
+    expect(html).toContain('function generateDisclosurePlan()');
+    expect(html).toContain('function buildDisclosurePlanFallback(');
+    expect(html).toContain('Calendário editorial de 4 semanas');
+    expect(html).toContain('Métricas e indicadores');
+    expect(html).toContain("saveHistory('Planejamento'");
+    expect(html).toContain('nenhuma ação externa será executada automaticamente');
+  });
+});
