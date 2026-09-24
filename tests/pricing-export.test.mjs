@@ -84,11 +84,11 @@ describe('Sugestão de Posts: formato editorial de referência', () => {
 
   it('mantém fallback rico, hashtags numeradas e direção visual por etapas', () => {
     expect(html).toContain('function buildPostFallback(');
-    expect(html).toContain('Início (0–5s)');
-    expect(html).toContain('Meio (5–15s)');
-    expect(html).toContain('Virada (15–25s)');
+    expect(html).toContain('0–5s — Gancho');
+    expect(html).toContain('5–18s — Contexto');
+    expect(html).toContain('18–32s — Virada');
     expect(html).toContain('30 hashtags');
-    expect(html).toContain('Responda aos comentários com atenção');
+    expect(html).toContain('retomando o detalhe mencionado');
   });
 
   it('aceita títulos Markdown e marcadores com emoji no parser', () => {
@@ -157,5 +157,22 @@ describe('Integração de IA no preview', () => {
     expect(html).toContain('O provedor de IA retornou um erro.');
     expect(html).toContain('A integração de IA não respondeu em até 45 segundos');
     expect(html).not.toContain('Configure ANTHROPIC_API_KEY');
+  });
+});
+
+describe('Qualidade e validação editorial dos posts', () => {
+  it('rejeita respostas incompletas antes de exibir a sugestão da IA', () => {
+    expect(html).toContain('function isPostDraftUsable(');
+    expect(html).toContain('const required=[');
+    expect(html).toContain('legendWords>=180');
+    expect(html).toContain('hashtagCount>=10');
+  });
+
+  it('usa hashtags contextualizadas e fallback específico por formato', () => {
+    expect(html).toContain('function makePostHashtags(');
+    expect(html).toContain('normalize(niche+\' \'+topic)');
+    expect(html).toContain('Tela 6');
+    expect(html).toContain('Slide 8');
+    expect(html).toContain('0–5s — Gancho');
   });
 });
