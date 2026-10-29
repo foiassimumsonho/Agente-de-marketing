@@ -215,3 +215,21 @@ describe('Similaridade textual dos posts', () => {
     expect(html).toContain('return union?intersection/union:0');
   });
 });
+
+
+describe('Integração da similaridade no fluxo de posts', () => {
+  it('extrai partes relevantes e identifica pares similares', () => {
+    expect(html).toContain('function extractPostSimilarityText(');
+    expect(html).toContain('function postSimilarityScore(');
+    expect(html).toContain('function findSimilarPostPairs(');
+    expect(html).toContain('score>=threshold');
+  });
+
+  it('regenera conflitos com instrução de originalidade e avisa o usuário', () => {
+    expect(html).toContain('function regenerateSimilarPosts(');
+    expect(html).toContain('Não repita título, gancho, exemplo, metáfora, CTA');
+    expect(html).toContain('const initialSimilarity=findSimilarPostPairs(results)');
+    expect(html).toContain('similarity-warning');
+    expect(html).toContain('Similaridades detectadas:');
+  });
+});
