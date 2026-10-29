@@ -198,3 +198,20 @@ describe('Planejamento de Divulgação', () => {
     expect(html).toContain('nenhuma ação externa será executada automaticamente');
   });
 });
+
+
+describe('Similaridade textual dos posts', () => {
+  it('normaliza acentos, hashtags, pontuação e espaços', () => {
+    expect(html).toContain('function normalizeSimilarityText(');
+    expect(html).toContain(".normalize('NFD')");
+    expect(html).toContain("replace(/#[\\p{L}\\p{N}_-]+/gu,' ')");
+    expect(html).toContain("replace(/[^\\p{L}\\p{N}\\s]/gu,' ')");
+  });
+
+  it('calcula similaridade de Jaccard com tokens relevantes', () => {
+    expect(html).toContain('function similarityTokens(');
+    expect(html).toContain('function jaccardSimilarity(');
+    expect(html).toContain('const union=new Set([...a,...b]).size');
+    expect(html).toContain('return union?intersection/union:0');
+  });
+});
