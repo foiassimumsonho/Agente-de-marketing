@@ -221,6 +221,9 @@ describe('Integração da similaridade no fluxo de posts', () => {
   it('extrai partes relevantes e identifica pares similares', () => {
     expect(html).toContain('function extractPostSimilarityText(');
     expect(html).toContain('function postSimilarityScore(');
+    expect(html).toContain('function extractPostSimilarityParts(');
+    expect(html).toContain('jaccardSimilarity(a.title,b.title)*0.35');
+    expect(html).toContain('if(normalizedFirst&&normalizedFirst===normalizedSecond)return 1');
     expect(html).toContain('function findSimilarPostPairs(');
     expect(html).toContain('score>=threshold');
   });
@@ -231,5 +234,35 @@ describe('Integração da similaridade no fluxo de posts', () => {
     expect(html).toContain('const initialSimilarity=findSimilarPostPairs(results)');
     expect(html).toContain('similarity-warning');
     expect(html).toContain('Similaridades detectadas:');
+  });
+});
+
+
+describe('Originalidade e uso do briefing dos posts', () => {
+  it('define ângulo editorial diferente por posição e valida o pedido do usuário', () => {
+    expect(html).toContain('function editorialAngle(');
+    expect(html).toContain('function briefingWasUsed(');
+    expect(html).toContain('editorialAngle:editorialAngle(number)');
+    expect(html).toContain('O pedido do usuário foi incorporado como requisito');
+  });
+
+  it('usa fallback com ângulo, número e pedido concreto em vez de repetir o enredo', () => {
+    expect(html).toContain("function buildPostFallback(format,audience,objective,topic,wish,profile,angle='educação e critério de escolha',number=1)");
+    expect(html).toContain('angleFrames');
+    expect(html).toContain('current.editorialAngle,number');
+    expect(html).toContain('cada post recebeu um ângulo editorial próprio');
+  });
+
+  it('rejeita resposta da IA que ignora o texto da caixa “O que você quer?”', () => {
+    expect(html).toContain('isPostDraftUsable(raw,b.format,current)');
+    expect(html).toContain('briefingWasUsed(text,briefing)');
+  });
+});
+
+describe('Fallback após regeneração de posts', () => {
+  it('substitui candidato similar por fallback do ângulo do post', () => {
+    expect(html).toContain("if(!candidate||findSimilarPostPairs([...prior,{number:results[index].number,raw:candidate}]).length)");
+    expect(html).toContain('buildPostFallback(briefing.format,briefing.audience,briefing.objective');
+    expect(html).toContain('results[index].angle,results[index].number');
   });
 });
