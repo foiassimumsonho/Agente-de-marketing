@@ -1,0 +1,277 @@
+# Project TODO
+
+- [x] Criar dashboard central com calendário editorial, desempenho por canal, conteúdos pendentes e próximos relatórios (MVP)
+- [x] Criar configuração de perfis de negócio multissetoriais com segmento, público-alvo, tom de voz, objetivos e canais ativos (formulário MVP)
+- [x] Criar geração de ideias, legendas, hashtags, roteiros e formatos para Instagram, TikTok e Pinterest (MVP de geração)
+- [x] Criar análise comparativa de métricas por rede, conteúdo, formato, tema e horário (estrutura de métricas e comparação de canais no MVP)
+- [x] Criar recomendações acionáveis para campanhas e anúncios baseadas em objetivos e métricas (insights iniciais no dashboard)
+- [x] Criar CRM com contatos e oportunidades vinculados a ações de marketing (schema e procedures MVP)
+- [x] Criar relatórios com resultados, aprendizados e prioridades recomendadas (modelo e agenda inicial)
+- [x] Implementar regras do fluxo obrigatório de revisão: rascunho, aprovação, devolução para ajuste e arquivamento
+- [x] Impedir publicação automática ou conexão que publique diretamente nas redes sociais
+- [x] Criar interface responsiva com direção visual elegante, refinada e consistente
+- [x] Modelar tabelas e procedimentos protegidos para perfis, conteúdos, métricas, campanhas, CRM e relatórios
+- [x] Implementar testes Vitest para regras de aprovação e arquivamento
+- [x] Validar build, tipos, testes e estados de carregamento/erro da interface
+
+## Próxima rodada
+
+- [x] Implementar widget editorial inicial no dashboard e listar próximo relatório
+- [x] Criar formulário real para criar perfis de negócio conectado à mutação (edição fica como extensão)
+- [x] Persistir conteúdos gerados pela IA como rascunhos e tratar erro de JSON
+- [x] Substituir a base de métricas por consulta agregada real e manter fallback visual do MVP para workspace vazio
+- [x] Adicionar UI de aprovação e devolução na fila; arquivamento disponível no contrato protegido
+- [x] Criar tabela e procedures de campanhas, além de procedures dedicados para CRM e relatórios
+- [x] Adicionar teste de isolamento por usuário e estados de carregamento/erro; estado vazio tratado com fallback orientativo
+
+## Redirecionamento de produto
+
+- [x] Remover calendário editorial da navegação, dashboard e textos da plataforma
+- [x] Reposicionar dashboard para criação de posts e identidade de marca
+- [x] Criar gerador de arquétipo com personalidade, valores, desejos, medos, voz e diretrizes de comunicação
+- [x] Criar formulário para briefing do arquétipo por segmento, público, diferencial e objetivo
+- [x] Adaptar sugestões de posts para gerar variações para Instagram, TikTok e Pinterest; integração contextual com arquétipo preparada
+- [x] Atualizar testes, validação visual e checkpoint da nova experiência
+
+## Adaptação para flux-marketing
+
+- [x] Documentar equivalência entre a base flux-marketing e o scaffold atual
+- [x] Criar estrutura backend/routers equivalente para FastAPI/integrações como camada organizacional
+- [x] Criar frontend/index.html de referência sem duplicar o app React principal
+- [x] Criar Procfile, railway.json e README de compatibilidade; variáveis documentadas sem editar arquivos de segredos
+- [x] Preservar o agente FLUX como conceito de orquestração para arquétipo, posts e revisão
+- [x] Validar que a adaptação não habilita publicação automática
+
+## Substituição efetiva pela base enviada
+
+- [x] Tornar a base real do repositório FLUX a estrutura principal de execução do projeto
+- [x] Remover a dependência operacional do runtime React/Express como interface principal
+- [x] Promover os routers FastAPI reais do repositório para endpoints funcionais de integrações e agente FLUX
+- [x] Substituir `frontend/index.html` pela interface completa real do FLUX
+- [x] Ajustar Procfile e railway.json para execução FastAPI
+- [x] Validar a migração com smoke test FastAPI e manter publicação automática desabilitada
+
+## Importação do repositório GitHub
+
+- [x] Acessar `git@github.com:foiassimumsonho/Agente-de-marketing.git` via HTTPS após a autenticação SSH ser recusada
+- [x] Inspecionar branch `main`, pacote ZIP e estrutura do repositório recebido
+- [x] Substituir a camada `flux-marketing/` pelo conteúdo real extraído do repositório
+- [x] Validar backend Python por compilação e validar TypeScript, testes e regras de aprovação do painel
+- [x] Salvar checkpoint baseado no repositório importado
+
+## Confirmação da troca de runtime
+
+- [x] Substituir o processo Node/React pelo processo FastAPI confirmado pelo usuário
+- [x] Promover o `frontend/index.html` real do pacote para a entrada principal
+- [x] Ajustar caminhos de importação dos routers e arquivos estáticos
+- [x] Validar a inicialização FastAPI com porta de teste e servir a interface na raiz
+- [x] Documentar a troca do preview Node pelo runtime FastAPI e preparar checkpoint da substituição
+
+## Redesign visual inspirado na referência
+
+- [x] Recriar o tema dark premium com roxo, ciano, rosa e gradientes sutis
+- [x] Criar sidebar com marca Marketing Agent e módulos navegáveis
+- [x] Criar hero de boas-vindas com proposta do produto e CTAs
+- [x] Criar indicadores de módulos, especialidades, templates e integrações
+- [x] Criar cards para Persona & Arquétipos, Copywriting, Briefing, Instagram Analytics, Sugestão de Posts, Google Ads, Meta Ads, Chat, Storytelling, Roteiros e Perfil Criativo
+- [x] Conectar os módulos à navegação e aos endpoints existentes quando aplicável
+- [x] Validar a nova interface em desktop e mobile; checkpoint pendente nesta rodada
+
+- [x] Conectar os módulos de Analytics, Instagram, Google Ads e Meta Ads aos endpoints FastAPI existentes ou exibir bloqueio explícito por credenciais ausentes
+- [x] Adicionar mensagens de bloqueio e erro por credencial nos módulos de integração
+
+## Reprodução fiel do modelo visual
+
+- [x] Reproduzir a composição visual do modelo sem reinterpretar o layout
+- [x] Reproduzir cabeçalho com logo FLUX e botões Instagram, Google e Dashboard
+- [x] Reproduzir barra horizontal de atalhos rápidos
+- [x] Reproduzir área de mensagens com avatar, balões e resposta inicial do agente
+- [x] Reproduzir barra inferior com status das integrações e campo de mensagem
+- [x] Reproduzir dashboard lateral com métricas e estados de conexão
+- [x] Preservar os módulos do modelo e conectar as ações existentes
+- [x] Validar a reprodução em desktop e mobile e salvar checkpoint
+
+## Correção de implantação
+
+- [x] Corrigir a ausência de `dist/public` que fez o upload estático falhar
+- [x] Criar etapa de build que copie a interface FLUX para `dist/public/index.html`
+- [x] Ajustar `package.json` para build e start compatíveis com o FastAPI
+- [x] Validar o processo de build e os endpoints após a correção
+- [x] Salvar checkpoint corrigido antes de solicitar nova implantação
+
+## Correção de fidelidade e runtime
+
+- [x] Comparar a interface atual com a referência enviada e corrigir divergências de composição
+- [x] Ajustar exatamente paleta, bordas, tipografia, dimensões, espaçamentos e alinhamentos da referência
+- [x] Corrigir o comando de start para que o container use o `dist/index.js` gerado pelo build
+- [x] Validar o build local compatível com o pipeline, o healthcheck e a resposta controlada das APIs
+- [x] Validar a referência em desktop e mobile e salvar novo checkpoint
+
+## Correção final de referência
+
+- [x] Remover laranja de logo, gradientes, ícones e estados ativos
+- [x] Aplicar paleta preta com roxo, azul e ciano conforme a foto
+- [x] Substituir módulos atuais pelo inventário exato da referência
+- [x] Ajustar títulos, badges, ícones e CTAs dos módulos conforme a foto
+- [x] Validar a versão publicada e salvar checkpoint
+
+## Sugestão de Posts — briefing dedicado
+
+- [x] Criar tela dedicada para Sugestão de Posts
+- [x] Adicionar opções Feed, Stories, Reels e Carrossel
+- [x] Adicionar campo de público-alvo
+- [x] Adicionar campo de objetivo da postagem
+- [x] Adicionar campo de tema da postagem
+- [x] Adicionar campo livre para instruções e desejos do usuário
+- [x] Enviar todos os campos ao agente FLUX para gerar a sugestão
+- [x] Renderizar resultado com blocos verificáveis de direção, legenda, CTA, hashtags e roteiro, além do material completo
+- [x] Manter resultado como sugestão para revisão, sem publicação automática
+- [x] Validar estados desktop/mobile e salvar checkpoint após confirmação dos marcadores no preview
+
+## Nome e histórico de gerações
+
+- [x] Renomear FLUX para Agente de Marketing Digital no título, marca, textos e respostas
+- [x] Atualizar o nome em `flux-marketing/frontend/index.html` e criar README atualizado da base importada
+- [x] Criar histórico persistente local com tipo, formato, briefing, resultado e data
+- [x] Registrar gerações de posts no histórico
+- [x] Registrar gerações de arquétipos no histórico
+- [x] Registrar conversas e respostas do agente no histórico
+- [x] Criar módulo visual para consultar tudo que foi gerado e limpar histórico
+- [x] Garantir persistência isolada no navegador e preservar a regra de não publicação automática
+- [x] Validar persistência e renderização do histórico no navegador, build, sintaxe e endpoints; checkpoint pendente nesta rodada
+
+## Correção do fluxo de Perfil Criativo e geração
+
+- [x] Remover o campo manual de contexto do arquétipo da tela de Sugestão de Posts
+- [x] Criar e persistir os campos do Perfil Criativo: personalidade, tom de voz, estilo visual e diretrizes
+- [x] Usar automaticamente o Perfil Criativo como contexto na geração de posts
+- [x] Exibir no estúdio que o Perfil Criativo salvo é usado automaticamente
+- [x] Diagnosticar o erro de integração do provedor de IA: `/api/chat/` estava fixo em 503
+- [x] Corrigir o fallback para usar o provedor integrado server-side e exibir erro específico
+- [x] Manter histórico das sugestões geradas com o briefing e o Perfil Criativo utilizado
+- [x] Validar geração, histórico, build e responsividade e salvar checkpoint
+
+## Padrão de conteúdo inspirado no exemplo anexado
+
+- [x] Gerar introdução estratégica conectando contexto, persona e dor
+- [x] Gerar título do post e objetivo detalhado
+- [x] Gerar melhor dia e horário com heurística por formato e objetivo, sempre como sugestão não garantida
+- [x] Gerar tipo de conteúdo e formato escolhido
+- [x] Gerar legenda completa em narrativa longa
+- [x] Gerar hashtags principais e lista ampliada de hashtags em blocos separados
+- [x] Gerar sugestão visual por etapas ou cenas
+- [x] Gerar sugestão de música quando aplicável ao formato
+- [x] Gerar dicas práticas de engajamento
+- [x] Gerar conclusão estratégica e posicionamento esperado
+- [x] Renderizar todas as seções no estúdio com fallback por seção e manter como rascunho para aprovação
+
+## Publicação no GitHub
+
+- [x] Verificar autenticação e branch `main` do repositório remoto
+- [x] Comparar estado remoto com a versão atual do projeto
+- [x] Criar commit com as alterações do Agente de Marketing Digital
+- [x] Enviar o commit para `foiassimumsonho/Agente-de-marketing`
+- [x] Confirmar a referência do commit publicado: `e78d4f5`
+
+## Precificação assistida por fotos
+
+- [x] Criar módulo de precificação no Agente de Marketing Digital
+- [x] Permitir anexar fotos do produto para análise visual assistida
+- [x] Adicionar campos de horas de criação, valor da hora e custos de materiais
+- [x] Adicionar custos indiretos, embalagem, taxas e margem desejada
+- [x] Calcular custo de mão de obra, custo total, preço mínimo e preço sugerido
+- [x] Exibir memória de cálculo transparente e cenários de preço
+- [x] Registrar precificações no histórico com referência da foto, entradas e resultado
+- [x] Garantir que o preço seja uma estimativa revisável, não uma decisão automática
+- [x] Validar cálculos, upload, estados da interface e responsividade
+
+## Complements da precificação
+
+- [x] Implementar cenários separados de preço mínimo, recomendado e premium
+- [x] Salvar no histórico a referência real da foto analisada
+- [x] Validar no navegador upload, cálculo, análise visual, histórico e visual mobile
+
+## Exportação de orçamento da precificação
+
+- [x] Adicionar exportação do resultado da precificação em PDF via impressão/salvamento
+- [x] Adicionar exportação do orçamento em imagem PNG
+- [x] Criar layout de orçamento com entradas, cenários, análise visual e aviso de estimativa
+- [x] Validar exportações, responsividade e ausência de publicação automática
+- [x] Liberar a exportação com fallback de tempo limite quando a análise visual da IA não responder
+- [x] Abrir automaticamente a tela correspondente ao hash da URL em links diretos
+
+## Validação ponta a ponta das exportações
+
+- [x] Confirmar abertura do layout imprimível na exportação PDF
+- [x] Confirmar geração e download real do arquivo PNG
+- [x] Ajustar PDF/PNG se necessário para compatibilidade do navegador do preview
+
+## Confirmação observável dos arquivos exportados
+
+- [x] Exibir uma prévia observável do PNG gerado após o download
+- [x] Revalidar PDF/PNG no preview com a confirmação visual do artefato
+- [x] Exibir uma prévia imprimível observável do orçamento PDF no próprio painel
+- [x] Revalidar o fluxo completo PDF e PNG após a prévia observável
+- [x] Repetir no navegador o botão Baixar imagem após a adição da prévia PDF
+- [x] Validar PDF e PNG juntos na mesma versão final servida
+- [x] Capturar evidência observável do status e da prévia PNG após a prévia PDF no mesmo navegador
+- [x] Revalidar novamente PDF + PNG juntos com evidência no DOM final
+- [x] Validar novamente o PNG depois que a prévia PDF estiver visível, com status PNG e ambas as prévias no DOM final
+
+## Histórico automático de orçamentos
+
+- [x] Salvar automaticamente cada orçamento calculado no histórico do usuário
+- [x] Exibir orçamentos salvos com data, produto, foto, custos e cenários
+- [x] Permitir reabrir um orçamento salvo para consulta e exportação
+- [x] Permitir excluir um orçamento individual sem apagar os demais
+- [x] Validar persistência, reabertura, exclusão, responsividade e aprovação humana
+
+## Melhoria de Sugestão de Posts
+
+- [x] Aumentar tamanho, contraste, espaçamento e hierarquia tipográfica do módulo de Sugestão de Posts
+- [x] Reorganizar os resultados em blocos de leitura mais claros e confortáveis
+- [x] Aprofundar prompt e fallback para textos reflexivos, estratégicos e concisos
+- [x] Preservar adaptação por Feed, Stories, Reels e Carrossel
+- [x] Validar qualidade editorial, legibilidade mobile/desktop e aprovação humana
+- [x] Validar no navegador a renderização final da Sugestão de Posts com conteúdo exibido em blocos após geração real ou fallback acionado pela interface
+- [x] Registrar evidência observável do resultado final do módulo de posts em desktop e mobile, incluindo legibilidade dos cards e aviso de revisão humana
+- [x] Corrigir o parser de seções para que cada card receba somente o conteúdo do próprio bloco
+
+## Fallback automático e validação final de Sugestão de Posts
+
+- [x] Fazer a interface renderizar fallback em cards automaticamente quando a IA falhar
+- [x] Validar no navegador o fallback disparado pela própria interface, sem injeção manual
+- [x] Registrar evidência mobile do resultado final renderizado em cards com aviso de revisão humana
+- [x] Restaurar automaticamente a última sugestão de post salva ao abrir o módulo
+- [x] Revalidar o resultado com cards preenchidos em viewport mobile
+
+## Adequação ao formato editorial de referência
+
+- [x] Reestruturar o resultado de Sugestão de Posts no formato narrativo do exemplo fornecido
+- [x] Aprofundar prompt e fallback com abertura contextual, título do post, objetivo, horário, legenda longa, hashtags numeradas, visual por etapas, música e dicas de engajamento
+- [x] Preservar parser em cards, histórico e aprovação humana sem publicação automática
+- [x] Validar visualmente o novo resultado em desktop/mobile e atualizar testes
+- [x] Adicionar timeout ao pedido de IA do gerador de posts para acionar o fallback editorial sem deixar a interface travada
+- [x] Validar em viewport mobile o novo formato editorial de referência após as correções finais do parser/timeout e registrar evidência observável no preview
+
+## Variações multiformato e cópia dos cards
+
+- [x] Criar opção para gerar variações da mesma ideia para Stories, Reels e Carrossel
+- [x] Adicionar botão em cada card para copiar o conteúdo completo para a área de transferência
+- [x] Validar feedback de cópia, responsividade, histórico e fluxo de revisão humana
+
+## Perfil Criativo artístico expandido
+
+- [x] Reestruturar o Perfil Criativo nas seções Estilo de Arte, Trajetória, Processo Criativo, Ideias de Negócio e Público-Alvo
+- [x] Persistir todos os campos artísticos e exibir um resumo ativo do perfil
+- [x] Usar o perfil artístico expandido nas sugestões de posts, variações e histórico
+- [x] Validar formulário mobile/desktop, testes, build e fluxo de revisão humana
+
+## Construtores e profundidade da geração
+
+- [x] Substituir módulos conversacionais prioritários por fluxos de construção orientados por formulário
+- [x] Adicionar nicho e quantidade de posts ao briefing de Sugestão de Posts
+- [x] Gerar a quantidade solicitada de posts com identificação, diversidade e estrutura completa
+- [x] Reforçar o prompt para usar cada detalhe do briefing e evitar texto genérico, ambíguo ou curto
+- [x] Melhorar o fallback para manter profundidade e especificidade quando a IA estiver indisponível
+- [x] Validar módulos, posts, histórico, responsividade, testes e build

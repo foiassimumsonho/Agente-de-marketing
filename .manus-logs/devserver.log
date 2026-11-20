@@ -1,0 +1,446 @@
+[2026-08-25T20:08:00.987Z] Starting dev server with command: pnpm run dev
+[2026-08-25T20:08:02.278Z] > marketing-agent-dashboard@1.0.0 dev /home/ubuntu/marketing-agent-dashboard
+[2026-08-25T20:08:02.278Z] > NODE_ENV=development tsx watch server/_core/index.ts
+[2026-08-25T20:08:03.130Z] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:08:03.251Z] Server running on http://localhost:3000/
+[2026-08-25T20:23:22.840Z] 8:23:22 PM [tsx] change in ./drizzle/schema.ts Restarting...
+[2026-08-25T20:23:23.661Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:23:23.806Z] Server running on http://localhost:3000/
+[2026-08-25T20:23:55.667Z] 8:23:55 PM [tsx] change in ./server/db.ts Restarting...
+[2026-08-25T20:23:56.447Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:23:56.548Z] Server running on http://localhost:3000/
+[2026-08-25T20:24:10.445Z] 8:24:10 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T20:24:11.139Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:24:11.250Z] Server running on http://localhost:3000/
+[2026-08-25T20:25:48.966Z] 8:25:48 PM [vite] (client) page reload index.html
+[2026-08-25T20:26:13.528Z] 8:26:13 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T20:26:14.381Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:26:14.487Z] Server running on http://localhost:3000/
+[2026-08-25T20:26:34.529Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:26:37.510Z] 8:26:37 PM [vite] (client) ✨ new dependencies optimized: recharts, @radix-ui/react-tabs, @radix-ui/react-progress, @radix-ui/react-dialog, @radix-ui/react-label, @radix-ui/react-select, @radix-ui/react-avatar, @radix-ui/react-dropdown-menu, @radix-ui/react-separator
+[2026-08-25T20:26:37.510Z] 8:26:37 PM [vite] (client) ✨ optimized dependencies changed. reloading
+[2026-08-25T20:28:06.431Z] 8:28:06 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T20:28:07.236Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:28:07.351Z] Server running on http://localhost:3000/
+[2026-08-25T20:28:41.468Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:29:31.397Z] 8:29:31 PM [tsx] change in ./drizzle/schema.ts Restarting...
+[2026-08-25T20:29:32.111Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:29:32.217Z] Server running on http://localhost:3000/
+[2026-08-25T20:29:35.568Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:29:51.033Z] [Auth] Missing session cookie
+[2026-08-25T20:30:26.553Z] 8:30:26 PM [tsx] change in ./server/db.ts Restarting...
+[2026-08-25T20:30:27.337Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:30:27.444Z] Server running on http://localhost:3000/
+[2026-08-25T20:30:28.378Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:30:35.142Z] 8:30:35 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T20:30:35.963Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T20:30:36.069Z] Server running on http://localhost:3000/
+[2026-08-25T20:30:36.371Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T20:30:54.899Z] 8:30:54 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T20:31:13.632Z] 8:31:13 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T20:32:59.447Z] 8:32:59 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:05:34.641Z] [Auth] Missing session cookie
+[2026-08-25T22:05:37.201Z] [Auth] Missing session cookie
+[2026-08-25T22:06:35.895Z] 10:06:35 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T22:06:36.723Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T22:06:36.832Z] Server running on http://localhost:3000/
+[2026-08-25T22:06:37.729Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T22:06:55.224Z] 10:06:55 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:07:02.662Z] 10:07:02 PM [vite] (client) hmr update /src/index.css, /src/components/DashboardLayout.tsx
+[2026-08-25T22:07:11.822Z] 10:07:11 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:07:18.831Z] 10:07:18 PM [vite] (client) hmr update /src/App.tsx, /src/index.css
+[2026-08-25T22:07:25.271Z] 10:07:25 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:08:25.956Z] 10:08:25 PM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-25T22:08:26.696Z] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-25T22:08:26.802Z] Server running on http://localhost:3000/
+[2026-08-25T22:08:27.712Z] [baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[2026-08-25T22:08:38.251Z] 10:08:38 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/index.css
+[2026-08-25T22:20:22.645Z] 10:20:22 PM [vite] changed tsconfig file detected: /home/ubuntu/marketing-agent-dashboard/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload index.html
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload public/.gitkeep
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload public/__manus__/debug-collector.js
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload src/App.tsx
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload src/_core/hooks/useAuth.ts
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload src/components/AIChatBox.tsx
+[2026-08-25T22:20:22.648Z] 10:20:22 PM [vite] (client) page reload src/components/DashboardLayout.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/DashboardLayoutSkeleton.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/ErrorBoundary.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/ManusDialog.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/Map.tsx
+[2026-08-25T22:20:22.649Z] 10:20:22 PM [vite] (client) page reload src/components/ui/accordion.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/alert-dialog.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/alert.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/aspect-ratio.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/avatar.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/badge.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/breadcrumb.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/button-group.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/button.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/calendar.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/card.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/carousel.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/chart.tsx
+[2026-08-25T22:20:22.650Z] 10:20:22 PM [vite] (client) page reload src/components/ui/checkbox.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/collapsible.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/command.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/context-menu.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/dialog.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/drawer.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/dropdown-menu.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/empty.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/field.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/form.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/hover-card.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/input-group.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/input-otp.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/input.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/item.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/kbd.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/label.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/menubar.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/navigation-menu.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/pagination.tsx
+[2026-08-25T22:20:22.651Z] 10:20:22 PM [vite] (client) page reload src/components/ui/popover.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/progress.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/radio-group.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/resizable.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/scroll-area.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/select.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/separator.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/sheet.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/sidebar.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/skeleton.tsx
+[2026-08-25T22:20:22.652Z] 10:20:22 PM [vite] (client) page reload src/components/ui/slider.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/sonner.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/spinner.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/switch.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/table.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/tabs.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/textarea.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/toggle-group.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/toggle.tsx
+[2026-08-25T22:20:22.653Z] 10:20:22 PM [vite] (client) page reload src/components/ui/tooltip.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/const.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/contexts/ThemeContext.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/hooks/useComposition.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/hooks/useMobile.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/hooks/usePersistFn.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) hmr update /src/index.css
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/lib/trpc.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/lib/utils.ts
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/main.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/pages/ComponentShowcase.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/pages/Home.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload src/pages/NotFound.tsx
+[2026-08-25T22:20:22.654Z] 10:20:22 PM [vite] (client) page reload /home/ubuntu/marketing-agent-dashboard/shared/const.ts
+[2026-08-25T22:20:22.746Z] 10:20:22 PM [tsx] unlink in ./vite.config.ts Restarting...
+[2026-08-25T22:20:22.777Z] cnode:internal/modules/cjs/loader:1247
+[2026-08-25T22:20:22.777Z] throw err;
+[2026-08-25T22:20:22.777Z] ^
+[2026-08-25T22:20:22.777Z] Error: Cannot find module '/home/ubuntu/marketing-agent-dashboard/node_modules/.pnpm/tsx@4.20.6/node_modules/tsx/dist/preflight.cjs'
+[2026-08-25T22:20:22.777Z] Require stack:
+[2026-08-25T22:20:22.777Z] - internal/preload
+[2026-08-25T22:20:22.777Z] at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+[2026-08-25T22:20:22.777Z] at Function._load (node:internal/modules/cjs/loader:1070:27)
+[2026-08-25T22:20:22.777Z] at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+[2026-08-25T22:20:22.777Z] at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+[2026-08-25T22:20:22.777Z] at Module.require (node:internal/modules/cjs/loader:1335:12)
+[2026-08-25T22:20:22.777Z] at node:internal/modules/cjs/loader:1834:12
+[2026-08-25T22:20:22.777Z] at loadPreloadModules (node:internal/process/pre_execution:726:5)
+[2026-08-25T22:20:22.777Z] at setupUserModules (node:internal/process/pre_execution:206:5)
+[2026-08-25T22:20:22.777Z] at prepareExecution (node:internal/process/pre_execution:159:5)
+[2026-08-25T22:20:22.777Z] at prepareMainThreadExecution (node:internal/process/pre_execution:54:10) {
+[2026-08-25T22:20:22.777Z] code: 'MODULE_NOT_FOUND',
+[2026-08-25T22:20:22.777Z] requireStack: [ 'internal/preload' ]
+[2026-08-25T22:20:22.777Z] }
+[2026-08-25T22:20:22.777Z] Node.js v22.13.0
+[2026-08-25T22:20:27.769Z] Dev server exited with code 0
+[2026-08-25T22:22:12.487Z] Starting dev server with command: pnpm run dev
+[2026-08-25T22:22:12.991Z] Already up to date
+[2026-08-25T22:22:13.000Z] Done in 254ms using pnpm v11.21.0
+[2026-08-25T22:22:13.008Z] $ python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}
+[2026-08-25T22:22:13.478Z] INFO:     Started server process [12841]
+[2026-08-25T22:22:13.478Z] INFO:     Waiting for application startup.
+[2026-08-25T22:22:13.478Z] INFO:     Application startup complete.
+[2026-08-25T22:22:13.478Z] INFO:     Uvicorn running on http://0.0.0.0:3000 (Press CTRL+C to quit)
+[2026-08-25T22:22:13.886Z] INFO:     10.76.96.1:37156 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:13.886Z] INFO:     10.76.96.1:37158 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:14.533Z] INFO:     127.0.0.1:33736 - "GET / HTTP/1.1" 200 OK
+[2026-08-25T22:22:14.913Z] INFO:     10.76.96.1:37170 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:15.133Z] INFO:     127.0.0.1:33736 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[2026-08-25T22:22:15.888Z] INFO:     10.76.96.1:37174 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:15.896Z] INFO:     10.76.96.1:37182 - "HEAD /?from_webdev=1 HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:16.170Z] INFO:     10.76.96.1:37188 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:16.338Z] INFO:     10.76.96.1:37194 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:22:16.729Z] INFO:     10.76.96.1:37206 - "GET /?from_webdev=1 HTTP/1.1" 200 OK
+[2026-08-25T22:22:16.827Z] INFO:     10.76.96.1:37218 - "GET /?from_webdev=1 HTTP/1.1" 200 OK
+[2026-08-25T22:22:25.530Z] INFO:     127.0.0.1:45414 - "GET /health HTTP/1.1" 200 OK
+[2026-08-25T22:22:25.534Z] INFO:     127.0.0.1:45418 - "HEAD /docs HTTP/1.1" 200 OK
+[2026-08-25T22:22:58.567Z] INFO:     10.76.96.1:43092 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-25T22:23:01.698Z] INFO:     10.76.96.1:43102 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:42:29.976Z] INFO:     10.175.254.1:35812 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:46:29.507Z] INFO:     10.175.254.1:50658 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:46:42.369Z] INFO:     10.175.254.1:59508 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:48:28.954Z] [ELIFECYCLE] Command failed.
+[2026-08-26T00:48:28.963Z] INFO:     Shutting down
+[2026-08-26T00:48:29.063Z] INFO:     Waiting for application shutdown.
+[2026-08-26T00:48:29.063Z] INFO:     Application shutdown complete.
+[2026-08-26T00:48:29.063Z] INFO:     Finished server process [12841]
+[2026-08-26T00:48:29.065Z] Dev server exited with code -1
+[2026-08-26T00:48:30.145Z] Starting dev server with command: pnpm run dev
+[2026-08-26T00:48:30.407Z] $ python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}
+[2026-08-26T00:48:30.895Z] INFO:     Started server process [17247]
+[2026-08-26T00:48:30.895Z] INFO:     Waiting for application startup.
+[2026-08-26T00:48:30.895Z] INFO:     Application startup complete.
+[2026-08-26T00:48:30.895Z] INFO:     Uvicorn running on http://0.0.0.0:3000 (Press CTRL+C to quit)
+[2026-08-26T00:48:59.471Z] INFO:     127.0.0.1:41352 - "GET / HTTP/1.1" 200 OK
+[2026-08-26T00:49:05.032Z] INFO:     10.175.254.1:56384 - "GET /?v=flux-redesign HTTP/1.1" 200 OK
+[2026-08-26T00:49:05.679Z] INFO:     10.175.254.1:56386 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[2026-08-26T00:49:36.516Z] INFO:     10.175.254.1:59010 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:49:36.642Z] INFO:     10.175.254.1:59016 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:49:49.699Z] INFO:     10.175.254.1:36612 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:49:53.579Z] INFO:     10.175.254.1:49488 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:50:31.566Z] INFO:     10.175.254.1:47312 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:50:32.583Z] INFO:     10.175.254.1:60692 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:52:26.260Z] INFO:     10.175.254.1:48068 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:52:26.356Z] INFO:     10.175.254.1:48084 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:52:40.342Z] [ELIFECYCLE] Command failed.
+[2026-08-26T00:52:40.369Z] INFO:     Shutting down
+[2026-08-26T00:52:40.469Z] INFO:     Waiting for application shutdown.
+[2026-08-26T00:52:40.469Z] INFO:     Application shutdown complete.
+[2026-08-26T00:52:40.469Z] INFO:     Finished server process [17247]
+[2026-08-26T00:52:40.472Z] Dev server exited with code -1
+[2026-08-26T00:52:41.539Z] Starting dev server with command: pnpm run dev
+[2026-08-26T00:52:41.794Z] $ python3 -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-3000}
+[2026-08-26T00:52:42.265Z] INFO:     Started server process [17617]
+[2026-08-26T00:52:42.265Z] INFO:     Waiting for application startup.
+[2026-08-26T00:52:42.265Z] INFO:     Application startup complete.
+[2026-08-26T00:52:42.265Z] INFO:     Uvicorn running on http://0.0.0.0:3000 (Press CTRL+C to quit)
+[2026-08-26T00:53:19.936Z] INFO:     10.175.254.1:51736 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T00:53:22.304Z] INFO:     10.175.254.1:35254 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T01:06:12.264Z] INFO:     10.175.254.1:36352 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T01:06:12.278Z] INFO:     10.175.254.1:36360 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T01:06:23.868Z] INFO:     10.175.254.1:52360 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T01:06:25.063Z] INFO:     10.175.254.1:52376 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T01:07:01.255Z] INFO:     10.175.254.1:45448 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T01:07:01.501Z] INFO:     10.175.254.1:45458 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T01:07:26.859Z] INFO:     10.175.254.1:36504 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T01:07:28.766Z] INFO:     10.175.254.1:36514 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+[2026-08-26T14:53:31.963Z] [ELIFECYCLE] Command failed.
+[2026-08-26T14:53:31.973Z] INFO:     Shutting down
+[2026-08-26T14:53:32.074Z] INFO:     Waiting for application shutdown.
+[2026-08-26T14:53:32.074Z] INFO:     Application shutdown complete.
+[2026-08-26T14:53:32.074Z] INFO:     Finished server process [17617]
+[2026-08-26T14:53:32.077Z] Dev server exited with code -1
+[2026-08-26T14:53:33.154Z] Starting dev server with command: pnpm run dev
+[2026-08-26T14:53:33.409Z] $ node server/static-server.mjs
+[2026-08-26T14:54:15.496Z] [ELIFECYCLE] Command failed.
+[2026-08-26T14:54:15.502Z] Dev server exited with code -1
+[2026-08-26T14:54:16.588Z] Starting dev server with command: pnpm run dev
+[2026-08-26T14:54:16.839Z] $ node server/static-server.mjs
+[2026-08-26T14:54:16.891Z] FLUX server listening on port 3000
+[2026-08-26T22:06:55.722Z] [ELIFECYCLE] Command failed.
+[2026-08-26T22:06:55.727Z] Dev server exited with code -1
+[2026-08-26T22:06:56.818Z] Starting dev server with command: pnpm run dev
+[2026-08-26T22:06:57.084Z] $ node server/static-server.mjs
+[2026-08-26T22:06:57.138Z] FLUX server listening on port 3000
+[2026-08-27T13:32:18.495Z] [ELIFECYCLE] Command failed.
+[2026-08-27T13:32:18.502Z] Dev server exited with code -1
+[2026-08-27T13:32:19.587Z] Starting dev server with command: pnpm run dev
+[2026-08-27T13:32:19.846Z] $ node server/static-server.mjs
+[2026-08-27T13:32:19.898Z] FLUX server listening on port 3000
+[2026-08-27T13:42:00.586Z] [ELIFECYCLE] Command failed.
+[2026-08-27T13:42:00.591Z] Dev server exited with code -1
+[2026-08-27T13:42:01.678Z] Starting dev server with command: pnpm run dev
+[2026-08-27T13:42:01.947Z] $ node server/static-server.mjs
+[2026-08-27T13:42:02.003Z] FLUX server listening on port 3000
+[2026-08-27T13:52:00.930Z] [ELIFECYCLE] Command failed.
+[2026-08-27T13:52:00.935Z] Dev server exited with code -1
+[2026-08-27T13:52:02.030Z] Starting dev server with command: pnpm run dev
+[2026-08-27T13:52:02.294Z] $ node server/static-server.mjs
+[2026-08-27T13:52:02.349Z] FLUX server listening on port 3000
+[2026-08-27T14:27:26.675Z] [ELIFECYCLE] Command failed.
+[2026-08-27T14:27:26.683Z] Dev server exited with code -1
+[2026-08-27T14:27:27.767Z] Starting dev server with command: pnpm run dev
+[2026-08-27T14:27:28.027Z] $ node server/static-server.mjs
+[2026-08-27T14:27:28.079Z] FLUX server listening on port 3000
+[2026-08-27T14:30:28.549Z] [ELIFECYCLE] Command failed.
+[2026-08-27T14:30:28.555Z] Dev server exited with code -1
+[2026-08-27T14:30:29.641Z] Starting dev server with command: pnpm run dev
+[2026-08-27T14:30:29.906Z] $ node server/static-server.mjs
+[2026-08-27T14:30:29.961Z] FLUX server listening on port 3000
+[2026-08-28T01:51:21.105Z] [ELIFECYCLE] Command failed.
+[2026-08-28T01:51:21.110Z] Dev server exited with code -1
+[2026-08-28T01:51:22.197Z] Starting dev server with command: pnpm run dev
+[2026-08-28T01:51:22.447Z] $ node server/static-server.mjs
+[2026-08-28T01:51:22.499Z] FLUX server listening on port 3000
+[2026-08-28T01:52:13.206Z] [ELIFECYCLE] Command failed.
+[2026-08-28T01:52:13.210Z] Dev server exited with code -1
+[2026-08-28T01:52:14.305Z] Starting dev server with command: pnpm run dev
+[2026-08-28T01:52:14.565Z] $ node server/static-server.mjs
+[2026-08-28T01:52:14.618Z] FLUX server listening on port 3000
+[2026-08-28T02:00:49.162Z] [ELIFECYCLE] Command failed.
+[2026-08-28T02:00:49.169Z] Dev server exited with code -1
+[2026-08-28T02:00:50.257Z] Starting dev server with command: pnpm run dev
+[2026-08-28T02:00:50.561Z] $ node server/static-server.mjs
+[2026-08-28T02:00:50.626Z] FLUX server listening on port 3000
+[2026-08-28T02:12:13.169Z] [ELIFECYCLE] Command failed.
+[2026-08-28T02:12:13.174Z] Dev server exited with code -1
+[2026-08-28T02:12:14.255Z] Starting dev server with command: pnpm run dev
+[2026-08-28T02:12:14.523Z] $ node server/static-server.mjs
+[2026-08-28T02:12:14.578Z] FLUX server listening on port 3000
+[2026-08-28T02:16:03.279Z] [ELIFECYCLE] Command failed.
+[2026-08-28T02:16:03.286Z] Dev server exited with code -1
+[2026-08-28T02:16:04.371Z] Starting dev server with command: pnpm run dev
+[2026-08-28T02:16:04.647Z] $ node server/static-server.mjs
+[2026-08-28T02:16:04.705Z] FLUX server listening on port 3000
+[2026-08-28T02:18:17.416Z] [ELIFECYCLE] Command failed.
+[2026-08-28T02:18:17.421Z] Dev server exited with code -1
+[2026-08-28T02:18:18.517Z] Starting dev server with command: pnpm run dev
+[2026-08-28T02:18:18.781Z] $ node server/static-server.mjs
+[2026-08-28T02:18:18.837Z] FLUX server listening on port 3000
+[2026-08-28T02:20:27.971Z] [ELIFECYCLE] Command failed.
+[2026-08-28T02:20:27.976Z] Dev server exited with code -1
+[2026-08-28T02:20:29.072Z] Starting dev server with command: pnpm run dev
+[2026-08-28T02:20:29.363Z] $ node server/static-server.mjs
+[2026-08-28T02:20:29.418Z] FLUX server listening on port 3000
+[2026-08-28T02:26:49.506Z] [ELIFECYCLE] Command failed.
+[2026-08-28T02:26:49.511Z] Dev server exited with code -1
+[2026-08-28T02:26:50.599Z] Starting dev server with command: pnpm run dev
+[2026-08-28T02:26:50.873Z] $ node server/static-server.mjs
+[2026-08-28T02:26:50.925Z] FLUX server listening on port 3000
+[2026-09-07T17:12:26.349Z] Starting dev server with command: pnpm run dev
+[2026-09-07T17:12:26.946Z] $ node server/static-server.mjs
+[2026-09-07T17:12:27.059Z] FLUX server listening on port 3000
+[2026-09-07T19:20:25.213Z] [ELIFECYCLE] Command failed.
+[2026-09-07T19:20:25.221Z] Dev server exited with code -1
+[2026-09-07T19:20:26.294Z] Starting dev server with command: pnpm run dev
+[2026-09-07T19:20:26.956Z] $ node server/static-server.mjs
+[2026-09-07T19:20:27.084Z] FLUX server listening on port 3000
+[2026-09-08T15:44:24.334Z] [ELIFECYCLE] Command failed.
+[2026-09-08T15:44:24.344Z] Dev server exited with code -1
+[2026-09-08T15:44:25.415Z] Starting dev server with command: pnpm run dev
+[2026-09-08T15:44:26.074Z] $ node server/static-server.mjs
+[2026-09-08T15:44:26.193Z] FLUX server listening on port 3000
+[2026-09-08T15:48:48.107Z] [ELIFECYCLE] Command failed.
+[2026-09-08T15:48:48.118Z] Dev server exited with code -1
+[2026-09-08T15:48:49.174Z] Starting dev server with command: pnpm run dev
+[2026-09-08T15:48:49.850Z] $ node server/static-server.mjs
+[2026-09-08T15:48:49.970Z] FLUX server listening on port 3000
+[2026-09-08T15:50:45.662Z] [ELIFECYCLE] Command failed.
+[2026-09-08T15:50:45.673Z] Dev server exited with code -1
+[2026-09-08T15:50:46.751Z] Starting dev server with command: pnpm run dev
+[2026-09-08T15:50:47.423Z] $ node server/static-server.mjs
+[2026-09-08T15:50:47.551Z] FLUX server listening on port 3000
+[2026-09-08T15:52:06.241Z] [ELIFECYCLE] Command failed.
+[2026-09-08T15:52:06.252Z] Dev server exited with code -1
+[2026-09-08T15:52:07.326Z] Starting dev server with command: pnpm run dev
+[2026-09-08T15:52:08.035Z] $ node server/static-server.mjs
+[2026-09-08T15:52:08.155Z] FLUX server listening on port 3000
+[2026-09-08T15:55:33.977Z] [ELIFECYCLE] Command failed.
+[2026-09-08T15:55:33.989Z] Dev server exited with code -1
+[2026-09-08T15:55:35.047Z] Starting dev server with command: pnpm run dev
+[2026-09-08T15:55:35.741Z] $ node server/static-server.mjs
+[2026-09-08T15:55:35.877Z] FLUX server listening on port 3000
+[2026-09-08T15:57:38.503Z] [ELIFECYCLE] Command failed.
+[2026-09-08T15:57:38.514Z] Dev server exited with code -1
+[2026-09-08T15:57:39.588Z] Starting dev server with command: pnpm run dev
+[2026-09-08T15:57:40.286Z] $ node server/static-server.mjs
+[2026-09-08T15:57:40.410Z] FLUX server listening on port 3000
+[2026-09-08T15:58:52.841Z] [ELIFECYCLE] Command failed.
+[2026-09-08T15:58:52.851Z] Dev server exited with code -1
+[2026-09-08T15:58:53.927Z] Starting dev server with command: pnpm run dev
+[2026-09-08T15:58:54.615Z] $ node server/static-server.mjs
+[2026-09-08T15:58:54.738Z] FLUX server listening on port 3000
+[2026-09-08T16:01:05.768Z] [ELIFECYCLE] Command failed.
+[2026-09-08T16:01:05.786Z] Dev server exited with code -1
+[2026-09-08T16:01:06.856Z] Starting dev server with command: pnpm run dev
+[2026-09-08T16:01:07.551Z] $ node server/static-server.mjs
+[2026-09-08T16:01:07.677Z] FLUX server listening on port 3000
+[2026-09-10T20:46:44.498Z] [ELIFECYCLE] Command failed.
+[2026-09-10T20:46:44.513Z] Dev server exited with code -1
+[2026-09-10T20:46:45.564Z] Starting dev server with command: pnpm run dev
+[2026-09-10T20:46:46.276Z] $ node server/static-server.mjs
+[2026-09-10T20:46:46.398Z] FLUX server listening on port 3000
+[2026-09-10T20:48:25.473Z] [ELIFECYCLE] Command failed.
+[2026-09-10T20:48:25.485Z] Dev server exited with code -1
+[2026-09-10T20:48:26.552Z] Starting dev server with command: pnpm run dev
+[2026-09-10T20:48:27.258Z] $ node server/static-server.mjs
+[2026-09-10T20:48:27.384Z] FLUX server listening on port 3000
+[2026-09-11T03:07:22.950Z] [ELIFECYCLE] Command failed.
+[2026-09-11T03:07:22.960Z] Dev server exited with code -1
+[2026-09-11T03:07:24.029Z] Starting dev server with command: pnpm run dev
+[2026-09-11T03:07:24.708Z] $ node server/static-server.mjs
+[2026-09-11T03:07:24.823Z] FLUX server listening on port 3000
+[2026-09-11T03:13:29.001Z] [ELIFECYCLE] Command failed.
+[2026-09-11T03:13:29.013Z] Dev server exited with code -1
+[2026-09-11T03:13:30.071Z] Starting dev server with command: pnpm run dev
+[2026-09-11T03:13:30.750Z] $ node server/static-server.mjs
+[2026-09-11T03:13:30.901Z] FLUX server listening on port 3000
+[2026-09-12T03:16:53.978Z] [ELIFECYCLE] Command failed.
+[2026-09-12T03:16:53.987Z] Dev server exited with code -1
+[2026-09-12T03:16:55.047Z] Starting dev server with command: pnpm run dev
+[2026-09-12T03:16:55.716Z] $ node server/static-server.mjs
+[2026-09-12T03:16:55.832Z] FLUX server listening on port 3000
+[2026-09-12T03:18:37.953Z] [ELIFECYCLE] Command failed.
+[2026-09-12T03:18:37.964Z] Dev server exited with code -1
+[2026-09-12T03:18:39.041Z] Starting dev server with command: pnpm run dev
+[2026-09-12T03:18:39.707Z] $ node server/static-server.mjs
+[2026-09-12T03:18:39.874Z] FLUX server listening on port 3000
+[2026-09-24T00:41:31.104Z] Starting dev server with command: pnpm run dev
+[2026-09-24T00:41:31.760Z] $ node server/static-server.mjs
+[2026-09-24T00:41:31.879Z] FLUX server listening on port 3000
+[2026-09-24T00:42:58.840Z] [ELIFECYCLE] Command failed.
+[2026-09-24T00:42:58.856Z] Dev server exited with code -1
+[2026-09-24T00:42:59.938Z] Starting dev server with command: pnpm run dev
+[2026-09-24T00:43:00.805Z] $ node server/static-server.mjs
+[2026-09-24T00:43:00.949Z] FLUX server listening on port 3000
+[2026-09-24T00:46:23.459Z] [ELIFECYCLE] Command failed.
+[2026-09-24T00:46:23.473Z] Dev server exited with code -1
+[2026-09-24T00:46:24.541Z] Starting dev server with command: pnpm run dev
+[2026-09-24T00:46:25.237Z] $ node server/static-server.mjs
+[2026-09-24T00:46:25.375Z] FLUX server listening on port 3000
+[2026-09-24T00:54:24.577Z] [ELIFECYCLE] Command failed.
+[2026-09-24T00:54:24.587Z] Dev server exited with code -1
+[2026-09-24T00:54:25.657Z] Starting dev server with command: pnpm run dev
+[2026-09-24T00:54:26.332Z] $ node server/static-server.mjs
+[2026-09-24T00:54:26.457Z] FLUX server listening on port 3000
+[2026-09-24T00:56:06.134Z] [ELIFECYCLE] Command failed.
+[2026-09-24T00:56:06.143Z] Dev server exited with code -1
+[2026-09-24T00:56:07.231Z] Starting dev server with command: pnpm run dev
+[2026-09-24T00:56:07.913Z] $ node server/static-server.mjs
+[2026-09-24T00:56:08.067Z] FLUX server listening on port 3000
+[2026-09-24T00:56:41.629Z] [ELIFECYCLE] Command failed.
+[2026-09-24T00:56:41.639Z] Dev server exited with code -1
+[2026-09-24T00:56:42.719Z] Starting dev server with command: pnpm run dev
+[2026-09-24T00:56:43.363Z] $ node server/static-server.mjs
+[2026-09-24T00:56:43.488Z] FLUX server listening on port 3000
+[2026-09-24T01:44:08.084Z] [ELIFECYCLE] Command failed.
+[2026-09-24T01:44:08.109Z] Dev server exited with code -1
+[2026-09-24T01:44:09.159Z] Starting dev server with command: pnpm run dev
+[2026-09-24T01:44:10.149Z] $ node server/static-server.mjs
+[2026-09-24T01:44:10.317Z] FLUX server listening on port 3000
+[2026-10-22T23:03:47.006Z] Starting dev server with command: pnpm run dev
+[2026-10-22T23:03:47.540Z] $ node server/static-server.mjs
+[2026-10-22T23:03:47.642Z] FLUX server listening on port 3000
+[2026-10-22T23:03:51.739Z] [ELIFECYCLE] Command failed.
+[2026-10-22T23:03:51.745Z] Dev server exited with code -1
+[2026-10-22T23:03:52.825Z] Starting dev server with command: pnpm run dev
+[2026-10-22T23:03:53.352Z] $ node server/static-server.mjs
+[2026-10-22T23:03:53.456Z] FLUX server listening on port 3000
+[2026-10-29T15:57:58.425Z] Starting dev server with command: pnpm run dev
+[2026-10-29T15:57:59.092Z] $ node server/static-server.mjs
+[2026-10-29T15:57:59.185Z] FLUX server listening on port 3000
+[2026-11-19T17:14:04.441Z] Starting dev server with command: pnpm run dev
+[2026-11-19T17:14:04.738Z] $ node server/static-server.mjs
+[2026-11-19T17:14:04.801Z] FLUX server listening on port 3000
+[2026-11-19T17:14:10.188Z] [ELIFECYCLE] Command failed.
+[2026-11-19T17:14:10.199Z] Dev server exited with code -1
+[2026-11-19T17:14:11.288Z] Starting dev server with command: pnpm run dev
+[2026-11-19T17:14:11.593Z] $ node server/static-server.mjs
+[2026-11-19T17:14:11.656Z] FLUX server listening on port 3000
+[2026-11-19T17:41:16.938Z] [ELIFECYCLE] Command failed.
+[2026-11-19T17:41:16.946Z] Dev server exited with code -1
+[2026-11-19T17:41:18.039Z] Starting dev server with command: pnpm run dev
+[2026-11-19T17:41:18.377Z] $ node server/static-server.mjs
+[2026-11-19T17:41:18.441Z] FLUX server listening on port 3000
